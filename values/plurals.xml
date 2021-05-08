@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name ="prbo_desc">
+        <item quantity="one">On average, one survey per hour.</item>
+        <item quantity="other">On average, one survey every %d hours.</item>
+    </plurals>
+
+    <plurals name="count_hours">
+        <item quantity="one">1 h</item>
+        <item quantity="other">%d h</item>
+    </plurals>
+
+    <plurals name="count_minutes">
+        <item quantity="one">1 min</item>
+        <item quantity="other">%d min</item>
+    </plurals>
+    <plurals name="xh">
+        <item quantity="one">%d hour</item>
+        <item quantity="other">%d hours</item>
+    </plurals>
+    <plurals name="mxh">
+        <item quantity="one">-%d hour</item>
+        <item quantity="other">-%d hours</item>
+    </plurals>
+    <plurals name="xd">
+        <item quantity="one">%d day</item>
+        <item quantity="other">%d days</item>
+    </plurals>
+    <plurals name="mxd">
+        <item quantity="one">-%d day</item>
+        <item quantity="other">-%d days</item>
+    </plurals>
+    <plurals name="count_minutes_long">
+        <item quantity="one">one minute</item>
+        <item quantity="other">%d minutes</item>
+    </plurals>
+    <plurals name="count_hours_long">
+        <item quantity="one">one hour</item>
+        <item quantity="other">%d hours</item>
+    </plurals>
+
+</resources>

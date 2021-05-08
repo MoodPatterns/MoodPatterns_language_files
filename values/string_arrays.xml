@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="weekdays">
+        <item>Monday</item>
+        <item>Tuesday</item>
+        <item>Wednesday</item>
+        <item>Thursday</item>
+        <item>Friday</item>
+        <item>Saturday</item>
+        <item>Sunday</item>
+    </string-array>
+
+    <string-array name="weekdays_sun_start">
+        <item>Sunday</item>
+        <item>Monday</item>
+        <item>Tuesday</item>
+        <item>Wednesday</item>
+        <item>Thursday</item>
+        <item>Friday</item>
+        <item>Saturday</item>
+    </string-array>
+
+    <string-array name="page_titles">
+        <item>START</item>
+        <item>TRENDS</item>
+        <item>MOMENT</item>
+        <item>DAY</item>
+    </string-array>
+
+    <string-array name="page_titles_notes">
+        <item>HELP</item>
+        <item>WRITE</item>
+        <item>PREVIEW</item>
+    </string-array>
+
+
+    <string-array name="page_titles_insights_event">
+        <item>BEFORE/AFTER\nSCALES</item>
+        <item>BEFORE/AFTER\nADDITIONAL</item>
+        <item>OCCASIONS</item>
+    </string-array>
+
+    <string-array name="page_titles_insights_sleep">
+        <item>HISTORY</item>
+        <item>WEEK</item>
+        <item>BEFORE</item>
+        <item>AFTER</item>
+    </string-array>
+
+    <string-array name="page_titles_insights_feel">
+        <item>FILTER &amp;\nCOMPARE</item>
+        <item>WEEK</item>
+        <item>DAY</item>
+        <item>RANK</item>
+        <item>COR</item>
+    </string-array>
+
+    <string-array name="page_titles_event_manipulation">
+        <item>GENERAL</item>
+        <item>OCCASIONS</item>
+    </string-array>
+
+
+    <string-array name="page_titles_log_nexus">
+        <item>SURVEYS</item>
+        <item>SLEEP</item>
+        <item>NOTES</item>
+        <item>PHONE USAGE</item>
+    </string-array>
+
+    <string-array name="page_titles_insights_history">
+        <item>LINES</item>
+        <item>NUMBERS</item>
+        <item>REPORTS</item>
+    </string-array>
+
+
+
+    <string-array name="grace_variants">
+        <item>Off</item>
+        <item>1 minute</item>
+        <item>10 minutes</item>
+        <item>1 hour</item>
+        <item>1 day</item>
+    </string-array>
+
+    <string-array name="slider_granularity_variants">
+        <item>very fine</item>
+        <item>fine</item>
+        <item>coarse</item>
+        <item>very coarse</item>
+    </string-array>
+
+    <string-array name="theme_labels">
+        <item>auto</item>
+        <item>light</item>
+        <item>dark</item>
+    </string-array>
+
+    <string-array name="reset_custom">
+        <item>survey data</item>
+        <item>places</item>
+        <item>activities</item>
+        <item>persons</item>
+        <item>factors</item>
+        <item>sleep</item>
+        <item>events</item>
+        <item>event occasions</item>
+        <item>survey schedule</item>
+        <item>scale selection</item>
+        <item>alerts</item>
+    </string-array>
+
+    <string-array name="alert_durations">
+        <item>3 days</item>
+        <item>1 week</item>
+        <item>2 weeks</item>
+        <item>1 month</item>
+    </string-array>
+
+    <string-array name="alert_sizes">
+        <item>small</item>
+        <item>medium</item>
+        <item>large</item>
+    </string-array>
+
+
+    <string-array name="alert_directions">
+        <item>increase</item>
+        <item>decrease</item>
+    </string-array>
+
+
+    <string-array name="alert_types">
+        <item>level</item>
+        <item>variation</item>
+        <item>dynamics</item>
+    </string-array>
+
+    <string-array name="page_titles_alert_nexus">
+        <item>CURRENT</item>
+        <item>ARCHIVE</item>
+    </string-array>
+
+    <string-array name="date_aggregations">
+        <item>day</item>
+        <item>week</item>
+        <item>month</item>
+        <item>year</item>
+    </string-array>
+
+</resources>

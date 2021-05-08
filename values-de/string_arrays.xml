@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="weekdays">
+        <item>Montag</item>
+        <item>Dienstag</item>
+        <item>Mittwoch</item>
+        <item>Donnerstag</item>
+        <item>Freitag</item>
+        <item>Samstag</item>
+        <item>Sonntag</item>
+    </string-array>
+
+    <string-array name="weekdays_sun_start">
+        <item>Sonntag</item>
+        <item>Montag</item>
+        <item>Dienstag</item>
+        <item>Mittwoch</item>
+        <item>Donnerstag</item>
+        <item>Freitag</item>
+        <item>Samstag</item>
+    </string-array>
+
+    <string-array name="page_titles">
+        <item>START</item>
+        <item>TRENDS</item>
+        <item>MOMENT</item>
+        <item>TAG</item>
+    </string-array>
+
+    <string-array name="page_titles_notes">
+        <item>HILFE</item>
+        <item>VERFASSE</item>
+        <item>VORSCHAU</item>
+    </string-array>
+
+
+    <string-array name="page_titles_insights_event">
+        <item>VORHER/NACHHER\nSKALEN</item>
+        <item>VORHER/NACHHER\nZUSATZDATEN</item>
+        <item>EREIGNISSE</item>
+    </string-array>
+
+    <string-array name="page_titles_insights_sleep">
+        <item>VERLAUF</item>
+        <item>WOCHE</item>
+        <item>VORHER</item>
+        <item>NACHHER</item>
+    </string-array>
+
+    <string-array name="page_titles_insights_feel">
+        <item>FILTER &amp;\nVERGLEICH</item>
+        <item>WOCHE</item>
+        <item>TAG</item>
+        <item>RANG</item>
+        <item>ZSHG</item>
+    </string-array>
+
+    <string-array name="page_titles_event_manipulation">
+        <item>ALLGEMEIN</item>
+        <item>EREIGNISSE</item>
+    </string-array>
+
+
+    <string-array name="page_titles_log_nexus">
+        <item>BEFRAGUNGEN</item>
+        <item>SCHLAF</item>
+        <item>NOTIZEN</item>
+        <item>TELEFONNUTZUNG</item>
+    </string-array>
+
+    <string-array name="page_titles_insights_history">
+        <item>LINIEN</item>
+        <item>ZAHLEN</item>
+        <item>BERICHTE</item>
+    </string-array>
+
+
+    <string-array name="grace_variants">
+        <item>Aus</item>
+        <item>1 Minute</item>
+        <item>10 Minuten</item>
+        <item>1 Stunde</item>
+        <item>1 Tag</item>
+    </string-array>
+
+    <string-array name="slider_granularity_variants">
+        <item>sehr fein</item>
+        <item>fein</item>
+        <item>grob</item>
+        <item>sehr grob</item>
+    </string-array>
+
+    <string-array name="theme_labels">
+        <item>auto</item>
+        <item>hell</item>
+        <item>dunkel</item>
+    </string-array>
+
+    <string-array name="reset_custom">
+        <item>Befragungsdaten</item>
+        <item>Orte</item>
+        <item>Tätigkeiten</item>
+        <item>Personen</item>
+        <item>Faktoren</item>
+        <item>Schlaf</item>
+        <item>Ereignisse</item>
+        <item>Erlebnisse der Ereignisse</item>
+        <item>Befragungszeitplan</item>
+        <item>Skalenauswahl</item>
+        <item>Alarme</item>
+    </string-array>
+
+    <string-array name="alert_durations">
+        <item>3 Tage</item>
+        <item>1 Woche</item>
+        <item>2 Wochen</item>
+        <item>1 Monat</item>
+    </string-array>
+
+    <string-array name="alert_sizes">
+        <item>klein</item>
+        <item>mittel</item>
+        <item>groß</item>
+    </string-array>
+
+    <string-array name="alert_directions">
+        <item>steigt</item>
+        <item>fällt</item>
+    </string-array>
+
+    <string-array name="alert_types">
+        <item>Niveau</item>
+        <item>Variation</item>
+        <item>Dynamik</item>
+    </string-array>
+
+    <string-array name="page_titles_alert_nexus">
+        <item>AKTUELL</item>
+        <item>ARCHIV</item>
+    </string-array>
+
+    <string-array name="date_aggregations">
+        <item>Tag</item>
+        <item>Woche</item>
+        <item>Monat</item>
+        <item>Jahr</item>
+    </string-array>
+
+</resources>

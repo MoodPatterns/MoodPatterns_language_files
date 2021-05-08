@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+    <body>
+
+
+        <div style="margin: 3em 10%;">
+
+            <h2>Alertas</h2>
+            <p>
+                Puede configurar alertas para controlar su estado de ánimo y recibir notificaciones si algo cambia.
+            </p>
+            <p>
+                Para garantizar notificaciones significativas, debe haber al menos una entrada por día en promedio para que se pueda activar una alarma.
+            </p>
+            <h3>Configuración de alertas</h3>
+            <p>
+                Para configurar una alerta, debe decidir la <b>escala</b> y el <b>tipo</b>, la <b>dirección</b>, la <b>talla</b> y la <b>duración</b> del cambio que desea tener en cuenta.
+            </p>
+
+            <h4>Escala</h4>
+            <p>
+                Seleccione la escala de interés.<br/>
+                <i>Nota:</i> Puede elegir todas las escalas activas. <i>Escalas Pro</i> serán controlados, incluso sin <i>Estado de Pro</i>. Sin embargo, sin <i>Pro</i>, la visualización de la secuencia de activación solo está disponible una vez, haciendo clic en la notificación de alerta.
+            </p>
+
+            <h4>Tipo</h4>
+            <p>
+                Describe el tipo de cambio que se debe monitorear.
+            </p>
+            <ul>
+                <li><b>NIVEL</b>: aumento o disminución general; monitores: valor medio de la escala</li>
+                <li><b>VARIACIÓN</b>: cambios en la variación; monitores: varianza de la escala</li>
+                <li><b>DINÁMICA</b>: cambios en la similitud de las entradas adyacentes; monitores: distancia media absoluta entre entradas sucesivas</li>
+            </ul>
+
+            <h4>Dirección</h4>
+            <p>
+                Describe la dirección del cambio que se debe monitorear.
+            </p>
+            <ul>
+                <li><b>AUMENTAR</b>: se le avisará si la característica monitorizada aumenta</li>
+                <li><b>DISMINUIR</b>: se le avisará si la característica monitorizada disminuye</li>
+            </ul>
+
+            <h4>Talla</h4>
+            <p>
+                Establece el cambio mínimo requerido para activar una alerta.
+            </p>
+            <h6>NIVEL</h6>
+            <ul>
+                <li><b>PEQUEÑA</b>: 0.2 desviaciones estandar</li>
+                <li><b>MEDIANA</b>: 0.5 desviaciones estandar</li>
+                <li><b>GRANDE</b>: 0.8 desviaciones estandar</li>
+            </ul>
+            <h6>VARIACIÓN Y DINÁMICA</h6>
+            <ul>
+                <li><b>PEQUEÑA</b>: 20 %</li>
+                <li><b>MEDIANA</b>: 50 %</li>
+                <li><b>GRANDE</b>: 80 %</li>
+            </ul>
+            <p>
+                <i>Nota:</i> Eso significa que la <i>talla</i> es relativo a la variación habitual de los valores de escala. Si con regularidad no hay muchos cambios, incluso una pequeña variación del valor activará una alerta.
+                Sin embargo, si los grandes saltos son algo común, entonces un cambio debe superarlos para hacerse notar.
+            </p>
+
+            <h4>Duración</h4>
+            <p>
+                La duración establece el marco de tiempo del período de observación y su período de control anterior.
+            </p>
+
+            <h3>Gestión de alertas</h3>
+            <p>Puede tener un número arbitrario de alertas.</p>
+            <p>Si desea detener una alerta, tiene tres opciones:</p>
+            <ol>
+                <li>Puede <i>desactivar</i> con el interruptor en su esquina superior izquierda.</li>
+                <li>Puede <i>archivarlo</i>. Esto mueve la alerta al <i>ARCHIVO</i>, desde donde aún tiene acceso a sus datos y puede restaurarlos cuando lo desee.</li>
+                <li>Puede <i>eliminarlo</i>. Esto eliminará permanentemente la alerta y todos los datos asociados a ella.</li>
+            </ol>
+            <p>Si <i>edita</i> una alerta existente, se guardará automáticamente una nueva alerta y se archivará la versión anterior.</p>
+
+
+        </div>
+
+    </body>
+</html>

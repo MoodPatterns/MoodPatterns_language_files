@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="sleep_tosleep_hours">(%s y %s\n para conciliar el sueño)</string>
+    <string name="sleep_tosleep_minutes">(%s para conciliar el sueño)</string>
+    <string name="sleep_sleepingtime_hours">(%s y %s\n de sueño)</string>
+    <string name="sleep_sleepingtime_minutes">(%s de sueño)</string>
+
+    <string name="log_header">Encuestas del %s\nal %s</string>
+    <string name="log_sleep_header">Datos de sueño del %s\nal %s</string>
+    <string name="log_notes_header">Notas del %s\nal %s</string>
+    <string name="log_usage_header">Datos de uso del teléfono\ndel %s al %s</string>
+    <string name="date_range">Datos del %s\nal %s</string>
+
+    <string name="password_wrong">La contraseña era incorrecta o el archivo seleccionado no es %s base de datos.</string>
+    <string name="db_notworking">Ocurrió un error al importar el archivo. Asegúrese de que sea una base de datos de %s.</string>
+    <string name="io_reset">Esto borrará sus datos de %s.\n\nPuede eliminar todos los datos o una selección personalizada de sus datos.</string>
+    <string name="edit_">Editar: %s</string>
+
+
+    <string name="median_50_90"><![CDATA[<font color=%s>mediana</font> - <font color=%s>50%%</font> - <font color=%s>90%%</font>]]></string>
+    <string name="estimate_ci"><![CDATA[<font color=%s>estimación</font> - <font color=%s>rango de confianza</font>]]></string>
+
+    <string name="no_cor_between">Sin datos de correlación entre %s y %s</string>
+    <string name="y_on_x">%s en\n%s</string>
+    
+    <string name="h_and_min">%dh %dmin </string>
+
+    <string name="new_">Nuevo: %s</string>
+
+    <string name="cannot_remove_while_selected">%1$s no se puede eliminar\nmientras queden %2$s.</string>
+
+    <string name="pred_loc">estar en: %s</string>
+    <string name="pred_act1">hacer: %s</string>
+    <string name="pred_act2">hacer (además): %s</string>
+    <string name="pred_per">conocer: %s</string>
+    <string name="pred_fac">f: %s</string>
+    <string name="pred_use">usar: %s</string>
+
+
+    <string name="license_error_">Error de licencia: %d</string>
+
+    <string name="fixed_survey">Encuesta fija %1$s + %2$s aleatorio</string>
+
+    <string name="data_from_the_x_prev_days">Datos de los últimos %d días</string>
+    <string name="data_from_the_x_prev_weeks">Datos de las últimas %d semanas</string>
+    <string name="no_data_in_week">Sin datos en la semana %1d en %2d</string>
+    <string name="report_of_week_in_year">semana %1d en %2d</string>
+    <string name="weekly_report_filename">reporte_semanal_%1d_%2d</string>
+
+    <string name="last_night_">Anoche (%s)</string>
+    <string name="md_actual_period">_Nota: El período realmente evaluado es de **%s** a **%s**._</string>
+
+    <string name="pref_performance_remove_non_response_summary">Elimina datos sobre solicitudes de encuestas sin respuesta.\nÚltimo: %s</string>
+
+</resources>

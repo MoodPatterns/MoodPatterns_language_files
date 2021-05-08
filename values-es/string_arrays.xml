@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="weekdays">
+        <item>Lunes</item>
+        <item>Martes</item>
+        <item>Miércoles</item>
+        <item>Jueves</item>
+        <item>Viernes</item>
+        <item>Sábado</item>
+        <item>Domingo</item>
+    </string-array>
+
+    <string-array name="weekdays_sun_start">
+        <item>Domingo</item>
+        <item>Lunes</item>
+        <item>Martes</item>
+        <item>Miércoles</item>
+        <item>Jueves</item>
+        <item>Viernes</item>
+        <item>Sábado</item>
+    </string-array>
+
+    <string-array name="page_titles">
+        <item>INICIO</item>
+        <item>CURSOS</item>
+        <item>MOMENTO</item>
+        <item>DÍA</item>
+    </string-array>
+
+    <string-array name="page_titles_notes">
+        <item>AYUDA</item>
+        <item>ESCRIBIR</item>
+        <item>AVANCE</item>
+    </string-array>
+
+
+    <string-array name="page_titles_insights_event">
+        <item>ANTES/DESPUÉS\nESCALAS</item>
+        <item>ANTES/DESPUÉS\nADICIONAL</item>
+        <item>OCASIONES</item>
+    </string-array>
+
+    <string-array name="page_titles_insights_sleep">
+        <item>HISTORIA</item>
+        <item>SEMANA</item>
+        <item>ANTES</item>
+        <item>DESPUÉS</item>
+    </string-array>
+
+    <string-array name="page_titles_insights_feel">
+        <item>FILTRAR &amp;\nCOMPARAR</item>
+        <item>SEMANA</item>
+        <item>DÍA</item>
+        <item>RANGO</item>
+        <item>COR</item>
+    </string-array>
+
+    <string-array name="page_titles_event_manipulation">
+        <item>GENERAL</item>
+        <item>OCASIONES</item>
+    </string-array>
+
+
+    <string-array name="page_titles_log_nexus">
+        <item>ENCUESTAS</item>
+        <item>SUEÑO</item>
+        <item>NOTAS</item>
+        <item>USO DEL TELÉFONO</item>
+    </string-array>
+
+    <string-array name="page_titles_insights_history">
+        <item>LÍNEAS</item>
+        <item>NÚMEROS</item>
+        <item>INFORMES</item>
+    </string-array>
+
+
+    <string-array name="grace_variants">
+        <item>Apagado</item>
+        <item>1 minuto</item>
+        <item>10 minutos</item>
+        <item>1 hora</item>
+        <item>1 día</item>
+    </string-array>
+
+    <string-array name="slider_granularity_variants">
+        <item>muy fina</item>
+        <item>fina</item>
+        <item>gruesa</item>
+        <item>muy gruesa</item>
+    </string-array>
+
+    <string-array name="theme_labels">
+        <item>auto</item>
+        <item>claro</item>
+        <item>oscuro</item>
+    </string-array>
+
+    <string-array name="reset_custom">
+        <item>datos de la encuesta</item>
+        <item>lugares</item>
+        <item>actividades</item>
+        <item>personas</item>
+        <item>factores</item>
+        <item>sueño</item>
+        <item>eventos</item>
+        <item>ocasiones de eventos</item>
+        <item>horario de la encuesta</item>
+        <item>selección de escala</item>
+        <item>alertas</item>
+    </string-array>
+
+    <string-array name="alert_durations">
+        <item>3 días</item>
+        <item>1 semana</item>
+        <item>2 semanas</item>
+        <item>1 mes</item>
+    </string-array>
+
+    <string-array name="alert_sizes">
+        <item>pequeña</item>
+        <item>mediana</item>
+        <item>grande</item>
+    </string-array>
+
+    <string-array name="alert_directions">
+        <item>aumentar</item>
+        <item>disminuir</item>
+    </string-array>
+
+    <string-array name="alert_types">
+        <item>nivel</item>
+        <item>variación</item>
+        <item>dinámica</item>
+    </string-array>
+
+    <string-array name="page_titles_alert_nexus">
+        <item>ACTUAL</item>
+        <item>ARCHIVO</item>
+    </string-array>
+
+    <string-array name="date_aggregations">
+        <item>día</item>
+        <item>semana</item>
+        <item>mes</item>
+        <item>año</item>
+    </string-array>
+
+</resources>

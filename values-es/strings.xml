@@ -1,0 +1,882 @@
+<resources>
+    <string name="app_name">Mood Patterns</string>
+    <string name="app_name_folder">MoodPatterns</string>
+
+    <string name="action_settings">Configuraciones</string>
+
+    <string name="cancel">cancelar</string>
+    <string name="next">siguiente</string>
+
+    <string name="logs">Registros</string>
+    <string name="scales_standard">Escalas Base</string>
+    <string name="scales_extra">Escalas Especiales (Pro)</string>
+    <string name="scales_custom">Escalas Personalizadas (Pro)</string>
+    <string name="scales_misc">Información Adicional</string>
+
+
+    <string name="sun">D</string>
+    <string name="mon">L</string>
+    <string name="tue">M</string>
+    <string name="wed">X</string>
+    <string name="thu">J</string>
+    <string name="fri">V</string>
+    <string name="sat">S</string>
+    <string name="sunday">Domingo</string>
+    <string name="monday">Lunes</string>
+    <string name="tuesday">Martes</string>
+    <string name="wednesday">Miércoles</string>
+    <string name="thursday">Jueves</string>
+    <string name="friday">Viernes</string>
+    <string name="saturday">Sábado</string>
+
+
+    <string name="db_export">exportar datos</string>
+    <string name="db_import">importar datos</string>
+    <string name="db_export_csv">exportar CSV</string>
+
+    <string name="cant_create_folder">No se puede crear la carpeta.</string>
+    <string name="problems_decrypting">Problemas para descifrar la base de datos.</string>
+    <string name="db_saved_at">Base de datos guardada en&#160;</string>
+    <string name="csv_saved_at">CSV guardada en&#160;</string>
+    <string name="day_">Día:</string>
+    <string name="DAY">Día</string>
+    <string name="start_">Inicio:</string>
+    <string name="START">Inicio</string>
+    <string name="End_">Fin:</string>
+    <string name="END">Fin</string>
+    <string name="samplefrequency_">Frecuencia de muestreo:</string>
+    <string name="SAMPLEFREQUENCY">Frecuencia de muestreo</string>
+    <string name="Delete">Eliminar</string>
+    <string name="Edit">Editar</string>
+    <string name="OK">OK</string>
+
+    <string name="inH">1 en %1$dh</string>
+    <string name="select_multiple_days">seleccionar varios días</string>
+    <string name="deselectDays">Primero seleccione solo un día.</string>
+    <string name="noDaySelected">Por favor, seleccione al menos un día.</string>
+    <string name="new_block">agregar muestreo</string>
+    <string name="clear_day">%1$s claro</string>
+    <string name="clear_all">todo claro</string>
+    <string name="configure_sampling">Configuración de muestreo</string>
+    <string name="impexp">Importar - Exportar - Restablecer</string>
+
+    <string name="answerAll">Por favor responda a todos.</string>
+    <string name="navigation_drawer_open">abierto</string>
+    <string name="navigation_drawer_close">cerrar</string>
+    <string name="home_start">Inicio</string>
+    <string name="insights">Perspectivas</string>
+    <string name="feelings">Escalas de humor</string>
+
+
+    <string name="LocationPermission">Su selección incluye LUGARES - Se requiere permiso para acceder a la ubicación para la preselección de opciones inteligentes.</string>
+    <string name="oneScale">Seleccione al menos una escala.</string>
+
+    <string name="name_of_location">Nombre del lugar</string>
+    <string name="name_of_event">Nombre del evento</string>
+    <string name="name_of_factor">Nombre del factor</string>
+    <string name="new_location">Crear nuevo lugar</string>
+    <string name="new_event">Crear nuevo evento</string>
+    <string name="new_factor">Crear nuevo factor</string>
+    <string name="enterNameFirst">Ingrese el nombre del lugar.</string>
+    <string name="enterActionNameFirst">Ingrese el nombre de la actividad.</string>
+    <string name="enterEventNameFirst">Ingrese el nombre del evento.</string>
+    <string name="enterFactorNameFirst">Ingrese el nombre de factor.</string>
+    <string name="nameTaken">El lugar %1$s ya existe.</string>
+    <string name="nameActionTaken">La actividad %1$s ya existe.</string>
+    <string name="nameEventTaken">El evento %1$s ya existe.</string>
+    <string name="nameFactorTaken">El factor %1$s ya existe.</string>
+    <string name="search_location">Buscar lugar</string>
+    <string name="search_action">Buscar actividad</string>
+    <string name="search_factor">Buscar factor</string>
+    <string name="new_survey">Nueva Encuesta</string>
+    <string name="save">guardar</string>
+    <string name="notSelected">Nada</string>
+    <string name="acquaintance">Conocido/a</string>
+    <string name="stranger">Desconocido/a</string>
+    <string name="neighbor">Vecino/a</string>
+    <string name="other">Otro/a</string>
+    <string name="friend">Amigo/a</string>
+    <string name="lover">Amante</string>
+    <string name="heartthrob">Adorado/a</string>
+    <string name="ex">Ex</string>
+    <string name="competitor">Competidor/a</string>
+    <string name="spouse">Esposo/a</string>
+    <string name="child">Niño/a</string>
+    <string name="grandchild">Nieto/a</string>
+    <string name="parent">P/Madre</string>
+    <string name="grandparent">Abuelo/a</string>
+    <string name="sibling">Hermano/a</string>
+    <string name="new_name">Nuevo Nombre</string>
+    <string name="person_specifity">Identidad</string>
+    <string name="person_specifity_specific">persona concreta</string>
+    <string name="person_specifity_generic">cualquier persona del grupo</string>
+    <string name="person_specifity_specific_short">concreta</string>
+    <string name="person_specifity_generic_short">cualquier</string>
+    <string name="female">hembra</string>
+    <string name="male">masculino</string>
+    <string name="person_sex">Sexo</string>
+    <string name="person_family">Familia</string>
+    <string name="person_business">Negocio</string>
+    <string name="person_private">Privado/a</string>
+    <string name="teacher">Educador/a</string>
+    <string name="pupil">Aprendiz/a</string>
+    <string name="model">Modelo</string>
+    <string name="colleague">Colega</string>
+    <string name="associate">Asociado/a</string>
+    <string name="boss">Jefe/a</string>
+    <string name="employee">Empleado/a</string>
+    <string name="superior">Superior/a</string>
+    <string name="subordinate">Subordinado/a</string>
+    <string name="customer">Comprador/a</string>
+    <string name="client">Cliente</string>
+    <string name="agent">Agente</string>
+    <string name="person_misc">Diverso/a</string>
+    <string name="warning">Aviso</string>
+    <string name="msg_name_exists">Ya existe otra entrada llamada %1$s.</string>
+    <string name="create_anyway">crear de todos modos</string>
+    <string name="rename_anyway">cambiar el nombre de todos modos</string>
+    <string name="msg_not_saved">Los cambios aún no se han guardado. ¿Cerrar de todos modos?</string>
+    <string name="close">cerrar</string>
+    <string name="save_close">guardar y cerrar</string>
+
+    <string name="activity_type_basic_needs">Necesidades básicas</string>
+    <string name="activity_type_grooming_hygiene"><![CDATA[Aseo e Higiene]]></string>
+    <string name="activity_type_paid_work">Trabajo pagado</string>
+    <string name="activity_type_household_chores">Quehaceres domésticos</string>
+    <string name="activity_type_unpaid_work">Trabajo no remunerado</string>
+    <string name="activity_type_leisure">Ocio</string>
+    <string name="activity_type_physical_exercise">Ejercicio físico</string>
+    <string name="activity_type_education">Educación</string>
+    <string name="activity_type_on_way">Estar en camino</string>
+    <string name="start_sampling">iniciar\nmuestreo</string>
+    <string name="set_schedule">Establecer Horario</string>
+    <string name="pause_sampling">pausar\nmuestreo</string>
+    <string name="edit_location">Editar Lugar</string>
+    <string name="edit_factor">Editar Factor</string>
+    <string name="sorting_type">como ordenar</string>
+    <string name="set_sorting_type">establecer orden predeterminado</string>
+
+    <string name="take_survey">Tomar\nencuesta</string>
+    <string name="register_event">Registrar\nevento</string>
+    <string name="activity_name_hint">Nombre de la actividad</string>
+    <string name="activity_type">Tipo:</string>
+    <string name="new_action">Crear nueva actividad</string>
+    <string name="filter_type">tipo de filtro</string>
+    <string name="select_activity_types">Filtrar tipos de actividades</string>
+    <string name="select_person_types">Filtrar tipos de personas</string>
+    <string name="ok">OK</string>
+    <string name="select_all">Seleccionar todo</string>
+    <string name="edit_activity">Editar actividad</string>
+    <string name="sort_alpha">alfabético</string>
+    <string name="sort_recent">último uso</string>
+    <string name="sort_distance">inteligente</string>
+    <string name="sort_count">recuento de ocurrencias</string>
+    <string name="select_sort_type">Como ordenar</string>
+    <string name="question_feel">¿Cómo te sientes?</string>
+    <string name="question_location">¿Dónde estás?</string>
+    <string name="question_action1">¿Qué estás haciendo?</string>
+    <string name="question_action2">¿Que mas estas haciendo?</string>
+    <string name="search_person">Buscar persona</string>
+    <string name="question_person">¿Quien esta contigo?</string>
+    <string name="question_factor">¿Algún factor actual?</string>
+    <string name="count_">Cuenta:</string>
+    <string name="count">Cuenta</string>
+    <string name="enterNote">Ingrese su nota. Puede utilizar Markdown para formatear (consulte la ayuda).</string>
+    <string name="format_options">Opciones de formato:</string>
+
+
+    <string name="h1">Encabezamiento 1</string>
+    <string name="h2">Encabezamiento 2</string>
+    <string name="italic">cursiva</string>
+    <string name="bold">negrita</string>
+    <string name="l1">primer elemento de la lista</string>
+    <string name="l2">segundo elemento de la lista</string>
+    <string name="ul1">elemento de lista desordenado</string>
+    <string name="ul2">un elemento de lista desordenado más</string>
+    <string name="write_note">Toma nota</string>
+    <string name="rate_mood">Escalas de humor</string>
+    <string name="edit_event">Editar evento</string>
+    <string name="search_event">Buscar evento</string>
+    <string name="question_event">¿Que pasó?</string>
+    <string name="add_survey">Agregar Encuesta</string>
+    <string name="msg_add_survey">¿Quieres complementar el evento con una encuesta?</string>
+    <string name="yes">Si</string>
+    <string name="no">No</string>
+    <string name="sleep_picker_title">¿Cuándo preguntar sobre el sueño?</string>
+    <string name="sleep_in_bed">En la cama en</string>
+    <string name="sleep_start">Cayó dormido a</string>
+    <string name="sleep_interrupts">Interrupciones:</string>
+    <string name="sleep_interrupts_number">Numero de interrupciones</string>
+    <string name="sleep_quality">Calidad de sueño:</string>
+    <string name="sleep_survey">Encuesta de Sueño</string>
+    <string name="sleep_end">Desperté a las</string>
+    <string name="no_data_to_display">No hay datos para mostrar</string>
+
+    <string name="label_sleep_duration">Duración del sueño</string>
+    <string name="label_sleep_quality">Calidad de sueño</string>
+    <string name="label_sleep_interrupts">Interrupciones del sueño</string>
+
+    <string name="no_sig_pred">No se encontró asociación significativa.</string>
+    <string name="header_start_day">Asociaciones con cómo te sientes todo el día</string>
+    <string name="header_start_moment">Asociaciones con cómo te sientes en un momento específico</string>
+    <string name="filter_">&#9660; filtrar</string>
+    <string name="filter__">&#9654; filtrar</string>
+    <string name="current_selection">Selección Actual</string>
+    <string name="edit">editar</string>
+    <string name="no_data_feel">No hay datos para mostrar.</string>
+    <string name="use">utilizar</string>
+    <string name="dont_use">no utilice</string>
+    <string name="selection_display">Eliminar de la selección para excluir de la visualización</string>
+    <string name="events">Eventos</string>
+    <string name="event_list_header">Seleccionar evento</string>
+    <string name="before_after_period">Período de tiempo antes/después</string>
+    <string name="days_1">1 día</string>
+    <string name="days_3">3 días</string>
+    <string name="days_7">1 semana</string>
+    <string name="days_14">2 semanas</string>
+    <string name="days_30">1 mes</string>
+    <string name="before">antes</string>
+    <string name="after">después</string>
+
+
+    <string name="date">E, d MMM yyyy</string>
+    <string name="date_short">dd MMM yyyy</string>
+    <string name="date_time_weekday_24h">E, d MMM yyyy HH:mm</string>
+    <string name="date_time_weekday_12h">E, d MMM yyyy HH:mm a</string>
+    <string name="recommend_encryption">Elija una contraseña para cifrar la base de datos exportada. Déjelo en blanco para continuar sin cifrar (no recomendado).</string>
+    <string name="enter_password">introducir la contraseña</string>
+    <string name="re_password">repite la contraseña</string>
+    <string name="set_passwort">Establecer Contraseña</string>
+    <string name="password_mismatch">¡Las contraseñas no concuerdan!</string>
+    <string name="select_database">Seleccione la base de datos para cargar</string>
+    <string name="select">seleccionar</string>
+    <string name="import_overwrites">La importación de una base de datos sobrescribe permanentemente sus datos actuales.</string>
+    <string name="proceed">continuar</string>
+    <string name="db_pass">Contraseña de la base de datos</string>
+    <string name="password_empty">sin contraseña ingresada</string>
+    <string name="sorry">Perdón</string>
+    <string name="need_write_perm">Perdón - Importar/Exportar no funcionará sin PERMISO DE ESCRITURA</string>
+    <string name="db_import_success">Base de datos importada correctamente</string>
+    <string name="db_reset">Restablecer datos</string>
+    <string name="select_time_event">Tiempo de ocasión</string>
+    <string name="select_date_event">Fecha de la ocasión</string>
+    <string name="cannot_change_survey_associated_event">Las ocasiones de eventos asociadas con las encuestas no se pueden cambiar.</string>
+
+    <string name="action_security">Seguridad</string>
+    <string name="change_pin">Cambiar PIN</string>
+    <string name="help">Ayuda</string>
+    <string name="send_feedback">Enviar comentarios</string>
+    <string name="feedback_description">Informar problemas técnicos o sugerir nuevas funciones.</string>
+    <string name="set_pin">Ingrese nuevo PIN</string>
+    <string name="repeat_pin">Repita el nuevo PIN</string>
+    <string name="wrong_pin">Lo siento, el PIN era incorrecto.</string>
+    <string name="old_pin">Ingrese el PIN antiguo</string>
+    <string name="enter_pin">Ingrese su PIN</string>
+    <string name="too_many_attemps">Demasiados intentos de PIN</string>
+    <string name="wait_five_min">Inténtelo de nuevo en 5 minutos.</string>
+    <string name="none">Nada</string>
+    <string name="feedback_header">¡Hola!\nTengo un error que informar o algunos comentarios sobre cómo mejorar esta aplicación:\n(Para obtener un informe de error, indíquenos los detalles del error y las circunstancias en las que ocurrió)</string>
+    <string name="welcome_text"># Bienvenido a Mood Patterns\nEsta aplicación le ayuda a recopilar información sobre cómo se siente.\nDada la naturaleza *personal* y *sensible* de estos datos, hacemos todo lo posible para protegerlos.\n\n- Mood Patterns no envía ningún dato (no tiene permiso de **Internet**)\n- Los datos están **encriptados AES de 256 bits** en su dispositivo\n- El acceso a la aplicación está protegido por un **PIN**\n\nAntes de poder utilizar Mood Patterns, debe crear su PIN.</string>
+    <string name="store_pin_securely">Almacene el PIN de forma segura</string>
+    <string name="cannot_recover_pin">En caso de perder el PIN, no se puede recuperar y todos los datos sin respaldo también se perderán.</string>
+    <string name="open_source_licenses">Bibliotecas usadas</string>
+
+    <string name="start_explained">Inicie y pause los mensajes automáticos de la encuesta dentro del horario configurado.</string>
+    <string name="done">HECHO</string>
+    <string name="next_">SIGUIENTE</string>
+    <string name="dont_want_to_wait">¿No quiere esperar al próximo muestreo? No hay problema. ¡Empiece una encuesta cuando quiera!</string>
+    <string name="event_happened">¿Acaba de ocurrir un evento importante? Agréguelo para un análisis posterior.</string>
+    <string name="enter_sleep_explained">¿No ha configurado una notificación para ingresar el sueño de anoche? Introdúzcalo directamente desde aquí.</string>
+    <string name="schedule_explained">Establecer marcos de tiempo y frecuencia de muestreo.</string>
+    <string name="scales_explained">Seleccione las escalas de humor que le gustaría evaluar.</string>
+
+    <string name="sampling_started"> <![CDATA[Acaba de comenzar el muestreo del estado de humor. <b>En momentos aleatorios dentro de su horario</b>, se le solicitarán encuestas. El muestreo continuará incluso si cierra la aplicación. Haga clic en <i>Pausar</i> para detener el muestreo.<br><br>
+      <i>Nota</i>: Si no recibe ningún mensaje dentro de su horario, probablemente se deba a la configuración de ahorro de energía de su teléfono.]]></string>
+    <string name="lets_collect_data">¡Recopilemos algunos datos!</string>
+    <string name="about">Acerca de</string>
+    <string name="open_source_licenses_info">Lista de bibliotecas de código abierto utilizadas y su información de licencia</string>
+    <string name="pref_grace_title">Retraso del App Lock</string>
+    <string name="pref_grace_summary">Espere antes de que se active el bloqueo de la aplicación</string>
+    <string name="finish">terminar</string>
+    <string name="sleep_interrupt_duration">Duración total de la interrupción:</string>
+    <string name="cannot_delete_used_person">No se puede eliminar a una persona que ya fue seleccionada en una encuesta.</string>
+    <string name="cannot_delete_used_location">No se puede eliminar un lugar que ya estaba seleccionado en una encuesta.</string>
+    <string name="cannot_delete_used_action">No se puede eliminar una actividad que ya estaba seleccionada en una encuesta.</string>
+    <string name="cannot_delete_used_factor">No se puede eliminar un factor que ya estaba seleccionado en una encuesta.</string>
+    <string name="ask_delete_used_event">Existen ocasiones de este evento.\n¿Eliminar de todos modos?</string>
+    <string name="go_pro">Activar Pro</string>
+    <string name="action_prostatus">Estado Pro</string>
+    <string name="pref_pro_summary">Habilite las funciones Pro y ayude a mejorar Mood Patterns asegurando un suministro constante de café para el desarrollador.</string>
+    <string name="stop_pro">Salir de Pro</string>
+    <string name="pref_quitpro_summary">Detenga la suscripción a las funciones Pro.</string>
+    <string name="restore_pro">Restaurar Pro</string>
+    <string name="pref_restorepro_summary">El estado Pro sigue activo pero caducará pronto. Restaurar para seguir usando todas las funciones Pro (y ayudar al desarrollador con un café al mes).</string>
+    <string name="pro_scales_selected">Escala Pro seleccionada</string>
+    <string name="pro_scales_selected_summary">Puede recopilar y exportar datos de Escalas Pro sin Estado Pro. Sin embargo, el análisis en la aplicación de estos datos solo está disponible para usuarios Pro.</string>
+    <string name="pro_scales_selected_alarm">Incluso sin el estado Pro, las alertas de las escalas Pro funcionarán (se le notificará si se cumple la condición). Sin embargo, el análisis en la aplicación de estos datos solo está disponible para usuarios Pro.</string>
+    <string name="pro_subscript">&#160;(Pro)</string>
+    <string name="action_performance">Funcionamiento</string>
+    <string name="pref_data_at_start_title">Tamaño al pasado</string>
+    <string name="pref_data_at_start_summary">Cantidad de datos cargados al inicio\n(más pequeño = más rápido)</string>
+
+    <string name="select_scales_to_collect">Seleccionar escalas de humor</string>
+    <string name="select_additional_to_collect">Seleccionar datos adicionales</string>
+
+    <string name="schedule">horario</string>
+    <string name="places">lugares</string>
+    <string name="activities">actividades</string>
+    <string name="persons">personas</string>
+
+    <string name="compare_">&#9660; comparar</string>
+    <string name="compare__">&#9654; comparar</string>
+    <string name="show">mostrar</string>
+    <string name="hide">esconder</string>
+    <string name="apply_selection">filtro como selección</string>
+    <string name="reset_selection">restablecer la selección</string>
+    <string name="compare_selection">Selección para comparación</string>
+
+    <string name="prepop_loc_label">Hogar</string>
+    <string name="prepop_action_label">comiendo</string>
+    <string name="prepop_event_label">Mi cumpleaños</string>
+    <string name="prepop_factor_label">clima lluvioso</string>
+    <string name="back">volver</string>
+    <string name="pref_privacy_title">Política de privacidad</string>
+    <string name="pref_key_version_title">Versión</string>
+    <string name="pref_key_changelog_title">Registro de cambios</string>
+    <string name="pref_acknowledgment">Reconocimiento</string>
+    <string name="pref_acknowledgment_info">Gracias a todos los que ayudaron a mejorar esta aplicación.</string>
+    <string name="pref_rate_title">Calificar aplicacion</string>
+    <string name="pref_rate_summary">Ayúdanos calificando la aplicación.</string>
+    <string name="later">ahora no</string>
+    <string name="no_thanks">no</string>
+    <string name="dialog_rate_title">Califica Mood Patterns</string>
+    <string name="dialog_rate_message">¿Te gusta Mood Patterns? Entonces, tómate un momento para calificarlo. ¡Sus comentarios son muy importantes para nosotros!</string>
+    <string name="share">enviar</string>
+    <string name="diary_problem">Los diarios son geniales, pero tienen un defecto importante: están sujetos a sesgos de memoria. Algunas actividades de nuestra vida son más destacadas que otras. Los recordamos mejor y más vívidamente y, por lo tanto, a menudo creemos que ocupan una mayor parte de cada día de lo que lo hacen. Sin embargo, para la mayoría de nosotros, las rutinas ocupan la mayor parte de nuestra vida diaria y a menudo se pasan por alto en los diarios.</string>
+    <string name="diary_solution"><![CDATA[Para capturar todas las partes de su vida que importan, <i>Mood Patterns</i> utiliza una técnica de las ciencias sociales: <b>muestreo de experiencias</b>. Nunca te pide que recuerdes nada, pero registra cómo te sientes en ese momento.]]></string>
+    <string name="diary_problem_title">El problema de los diarios</string>
+    <string name="diary_solution_title">Solución de Mood Patterns</string>
+    <string name="action_backup">Copia de seguridad</string>
+    <string name="pref_auto_export">Exportación automática</string>
+    <string name="pref_auto_export_summary">Exportación diaria automática de datos al almacenamiento interno del dispositivo.</string>
+    <string name="pref_title_notifications">Notificaciones</string>
+    <string name="pref_title_notifications_fixed">Notificaciones (tiempos fijos)</string>
+    <string name="pref_timeout">Cancelación automática</string>
+    <string name="pref_timeout_summary">Elimina las notificaciones después de 15 minutos.</string>
+    <string name="pref_insistent">Alarma insistente</string>
+    <string name="pref_insistent_summary">La señal de audio sigue repitiéndose.</string>
+    <string name="battery_optimization">¿Ir a las opciones de energía del dispositivo?</string>
+    <string name="battery_optimization_not_found">No puedo encontrar opciones de energía.\n¡Lo siento!</string>
+
+    <string name="pref_appearance">Apariencia</string>
+    <string name="pref_daynight_title">Tema (claro/oscuro)</string>
+    <string name="prepop_action_label_nothing">Nada</string>
+    <string name="inlaw">suegro/a</string>
+    <string name="sleep">Sueño</string>
+    <string name="time_of_day">Hora del día</string>
+    <string name="awake_bed_sleep"><![CDATA[<font color="#fbc02d">despierto</font> - <font color="#388e3c">en la cama</font> - <font color="#1e88e5">dormido</font>]]></string>
+    <string name="sleep_details_header">Duración, calidad e interrupciones del sueño</string>
+    <string name="hours">Horas</string>
+
+    <string name="poor_good">malo - bueno</string>
+    <string name="ratio">Proporción</string>
+    <string name="label_sleep_interrupt_duration">Duración de la interrupción</string>
+    <string name="minutes">Minutos</string>
+    <string name="wait_till_loaded">Los datos se cargarán pronto.</string>
+    <string name="sleep_insights">Perspectivas del sueño</string>
+
+
+    <string name="header_insights_sleep_before">Asociaciones entre el humor diario y el sueño de la noche siguiente</string>
+    <string name="header_insights_sleep_after">Asociaciones entre el sueño y su humor al día siguiente</string>
+    <string name="label_sleep_asleep">Hasta dormir</string>
+
+    <string name="feelings_insights">Perspectivas de las escalas del humor</string>
+    <string name="history_insights">Perspectivas de la historia</string>
+    <string name="header_rank">Ranking de datos adicionales</string>
+    <string name="ranked_by">Clasificado por</string>
+    <string name="variance">Dispersión</string>
+    <string name="mean">Valor</string>
+    <string name="alone">nadie</string>
+    <string name="header_insights_feel_cor">Asociación entre escalas</string>
+    <string name="pref_title_slider_label">Valor del control deslizante</string>
+    <string name="pref_slider_summary">Muestra el valor numérico sobre los controles deslizantes.</string>
+    <string name="pref_title_slider_granularity">Granularidad del control deslizante</string>
+    <string name="pref_summary_slider_granularity">Establece el nivel de detalle de los controles deslizantes.</string>
+    <string name="delete">eliminar</string>
+    <string name="permanently_delete">¿Realmente desea eliminar este valor de forma permanente?</string>
+    <string name="pref_title_concept">Concepto de recopilación de datos</string>
+
+    <string name="ask_delete_associated_event_occasion">Esta ocasión de evento está asociada con una entrada de encuesta.\n¿Eliminarlo de todos modos?</string>
+    <string name="no_alarm_off_header">El muestreo está desactivado</string>
+    <string name="no_alarm_off_text"><![CDATA[Active el muestreo haciendo clic en <b>INICIAR MUESTREO</b> en la pantalla de inicio.]]></string>
+    <string name="pref_title_no_alarm">No hay encuestas</string>
+    <string name="pref_summary_no_alarm">Diagnostique problemas potenciales que eviten alertas de encuestas automáticas.</string>
+    <string name="no_alarm_problems">Problemas que pueden evitar avisos de encuestas automáticas</string>
+    <string name="no_prob_header">No se detectaron problemas</string>
+    <string name="no_alarm_no_prob_text"><![CDATA[La herramienta de diagnóstico automático no encontró ningún problema. <br /><br />
+                                         Tenga en cuenta que el muestreo es aleatorio y que, por casualidad, incluso un día entero puede pasar sin un mensaje de encuesta (aunque esto es poco probable). <br /><br />
+                                         El culpable más probable es alguna medida adicional de ahorro de energía implementada por el fabricante del dispositivo.
+                                         Para obtener más información sobre esto, consulte <a href="https://dontkillmyapp.com/">dontkillmyapp.com</a>.<br /><br />
+                                         Póngase en contacto con nosotros en <a href="mailto:contact@moodpatterns.info?subject=No%20automatic%20survey%20prompts">contact@moodpatterns.info</a> y encontraremos una solución.
+                                        ]]></string>
+    <string name="no_alarm_timeouts_header">Se agotó el tiempo de espera de las notificaciones</string>
+    <string name="no_alarm_timeouts_text">
+        <![CDATA[
+            Ha habido mensajes automáticos de la encuesta, pero se agotó el tiempo de espera (probablemente los haya perdido).<br /><br />
+
+            Las notificaciones se descartarán después de 15 minutos de forma predeterminada para que no haya ambigüedad entre cómo se sintió cuando vio la notificación por primera vez y cuándo respondió a ella.<br /><br />
+
+            Si desea que la notificación permanezca activa hasta que reaccione a ella, puede cambiarla en<br />
+            <strong>Configuración (&nbsp;&#8942;&nbsp;) -> Notificaciones: cancelación automática</strong>.
+        ]]>
+    </string>
+    <string name="here">aquí</string>
+    <string name="no_alarm_channel_header">Las notificaciones están desactivadas</string>
+    <string name="no_alarm_channel_text">Las notificaciones de Mood Patterns están bloqueadas por la configuración del sistema.\n\nPor favor cambie esto</string>
+    <string name="no_alarm_intensity_header">La probabilidad de muestreo es baja</string>
+    <string name="no_alarm_intensity_text">
+        <![CDATA[
+            Debido al horario, las encuestas automáticas serán muy poco frecuentes. <br /> <br />
+
+            Puede ampliar los marcos de tiempo y aumentar la frecuencia de muestreo en <br />
+            <strong>Panel de navegación (&nbsp;&#9776;&nbsp;) -> configuración de muestreo -> horario</strong>
+        ]]>
+    </string>
+    <string name="to_this_list">a esta lista</string>
+    <string name="no_alarm_whitelist_header">No en la lista blanca de baterías</string>
+    <string name="no_alarm_whitelist_text">
+        La solicitud de encuestas automáticas es un servicio de larga duración y, por lo tanto, potencialmente cancelado por opciones de ahorro de energía.\n\nPara evitar que esto suceda, agregue Mood Patterns
+    </string>
+    <string name="please_restart_sampling">Reinicie el muestreo después.</string>
+    <string name="data_collection">Configuración de recopilación de datos</string>
+    <string name="edit_additional">Editar datos adicionales</string>
+    <string name="mood_scales">Escalas de humor</string>
+    <string name="additional_data">Datos adicionales</string>
+    <string name="settings_sampling_overview">
+        Aquí puedes\n
+         \n|b|establecer los plazos y la frecuencia de muestreo,\n
+         \n|b|seleccione las escalas de humor que le gustaría evaluar y\n
+         \n|b|seleccione los datos adicionales que le gustaría recopilar.
+    </string>
+    <string name="additional_explained">Seleccione datos adicionales (lugares, personas, actividades y sueño) que le gustaría recopilar.</string>
+
+
+    <string name="settings_additional_overview">
+        Aquí puedes\n
+        \n|b|crear,\n
+        \n|b|editar y\n
+        \n|b|eliminar\n
+        \nelementos de datos adicionales.
+    </string>
+
+    <string name="places_overview">
+        Crea, edita y elimina lugares.\n\nNota: solo se pueden eliminar los lugares no utilizados.
+    </string>
+
+    <string name="actions_overview">
+        Crea, edita y elimina actividades.\nEstarán disponibles como actividades primarias y secundarias.\n\nNota: solo se pueden eliminar las actividades no utilizadas.
+    </string>
+
+    <string name="persons_overview">
+        Crea, edita y elimina personas.\n\nNota: solo se pueden eliminar las personas no utilizadas.
+    </string>
+
+    <string name="factors_overview">
+        Crea, edita y elimina factores.\n\nNota: solo se pueden eliminar los factores no utilizados
+    </string>
+
+    <string name="events_overview">
+         Crea, edita y elimina eventos.\n\nCrea, edita y elimina ocasiones de eventos.
+    </string>
+
+
+
+    <string name="settings_additional_multi_edit">
+        En cada categoría, puede hacer |is|clic largo|ie| en un elemento para iniciar el |bs|modo de edición múltiple|be|.\n
+        \nEn el |bs|modo de edición múltiple|be| puede\n
+        \n|b|editar atributos de varios elementos y\n
+        \n|b|unificar varios elementos en uno.
+    </string>
+
+
+    <string name="settings_sampling_schedule_overview">
+        Aquí puede establecer cuándo y con qué frecuencia se muestreará automáticamente su estado de humor.\n
+        \n|b|Crear,\n
+        \n|b|editar y\n
+        \n|b|eliminar\n
+        \ntiempos de muestreo.
+    </string>
+
+    <string name="settings_sampling_schedule_types_title">Tipos de horarios</string>
+    <string name="settings_sampling_schedule_types_text">
+        Haga clic para cambiar entre horario\n
+        \n|b||bs|aleatorio|be| y\n
+        \n|b||bs|fijo|be|.\n\n
+        \n|is|Nota|ie|: Puede utilizar cualquiera de los horarios o ambos.
+    </string>
+
+    <string name="settings_sampling_schedule_fixed_title">Horario fijo</string>
+    <string name="settings_sampling_schedule_fixed_text">
+        Establezca tiempos fijos para las indicaciones de la encuesta.\n
+        \nPara mejorar la representatividad de los datos recopilados,
+        puede agregar un período aleatorio en el que se solicitará la encuesta.\n
+        \n|is|Nota|ie|: Debido a la configuración de ahorro de energía de Android, incluso las encuestas sin un período aleatorio pueden llegar un poco tarde.
+    </string>
+
+
+    <string name="settings_sampling_schedule_random_title">Horario aleatorio</string>
+    <string name="settings_sampling_schedule_random_text">
+        Este es el horario predeterminado porque proporciona la más alta calidad de datos.\n
+
+        \nDentro de cada marco de tiempo, cada momento tiene la misma posibilidad de una encuesta sin tener en cuenta las encuestas anteriores.
+        \nEn la práctica, esto podría significar que pasan más tiempo sin encuesta, seguidos de tiempos con encuestas frecuentes.
+        \nSin embargo, en promedio, habrá tantas encuestas como haya configurado.
+    </string>
+
+
+    <string name="settings_sampling_schedule_full_title">Editar y eliminar</string>
+    <string name="settings_sampling_schedule_full_text">
+        Haga clic en un tiempo de muestreo existente para ver sus detalles.\n\nPuede editar los detalles o eliminar todo el tiempo de muestreo.
+    </string>
+    <string name="note">Nota</string>
+
+    <string name="settings_sampling_schedule_overlap_title">Superposiciones</string>
+    <string name="settings_sampling_schedule_overlap_text">
+        Los horarios fijos y aleatorios tratan de manera diferente los tiempos de muestreo superpuestos.\n
+        \n|bs|Aleatorio|be|\n
+        \n|b|Los marcos de tiempo superpuestos con la misma frecuencia de muestreo se fusionan en un solo marco de tiempo.\n
+        \n|b|Un nuevo marco de tiempo que se superpone a un segundo marco de tiempo con una frecuencia de muestreo diferente reemplaza la parte superpuesta del segundo marco de tiempo.\n
+        \n|bs|Fijo|be|\n
+        \n|b|Los tiempos de muestreo pueden superponerse total o parcialmente entre sí.
+    </string>
+
+    <string name="settings_sampling_schedule_empty_title">Agregar y despejar</string>
+    <string name="settings_sampling_schedule_empty_text">
+        |bs|Clic largo|be| en algún espacio vacío para\n
+        \n|b|agregar un nuevo tiempo de muestreo o\n
+        \n|b|despejar todo el día.
+    </string>
+
+
+    <string name="start_start_onboarding_sampling_title">Antes de comenzar, configure su recopilación de datos</string>
+    <string name="configure_explained">
+        En |bs|&#9776;|be| -> |bs|Configuración de muestreo|be| puedes configurar tu\n
+        \n|b|horario de muestreo\n
+        \ny\n
+        \n|b|las escalas de humor y\n
+        \n|b|los datos adicionales (lugares, personas, actividades, sueño)\n
+        \nle gustaría evaluar.
+    </string>
+
+
+    <string name="start_start_additional_explained">
+        En |bs|&#9776;|be| -> |bs|Editar datos adicionales|be| puedes agregar y editar \n
+        \n|b|lugares,\n
+        \n|b|personas,\n
+        \n|b|actividades y\n
+        \n|b|eventos.\n\n
+        \n|is|Nota|ie|: También puede agregar nuevos elementos de datos adicionales durante una encuesta.
+    </string>
+
+    <string name="start_start_settings">Configuración general</string>
+
+    <string name="start_start_settings_explained">
+        En la configuración (\u00A0|bs|&#8942;|be|\u00A0) puede, p. ej.,\n
+        \n|b|cambiar la configuración de seguridad o apariencia,\n
+        \n|b|obtener ayuda (herramienta de diagnóstico para los mensajes que faltan en la encuesta) y\n
+        \n|b|obtener más información sobre esta aplicación (p. ej., el concepto de recopilación de datos).
+    </string>
+    <string name="this_is_the_start_screen">Comienzo</string>
+
+
+    <string name="start_screen_overview">
+        Desde aquí puedes\n
+        \n|b|iniciar una encuesta,\n
+        \n|b|grabar un evento,\n
+        \n|b|iniciar o pausar los mensajes automáticos de la encuesta y\n
+        \n|b|ir a configuración.
+    </string>
+
+    <string name="advanced_settings">Configuraciones avanzadas</string>
+    <string name="pref_facebook_title">Enlace a la página de Facebook</string>
+    <string name="pref_facebook_sum">Esto es solo un enlace, sin integración. NINGÚN DATO será compartido con FB. En nuestra página puede obtener las últimas noticias y consejos para Mood Patterns.</string>
+    <string name="custom_start">Inicio (-)</string>
+    <string name="customize_scale">Personalizar escala</string>
+    <string name="custom_end">Fin (+)</string>
+    <string name="reset_custom_scale">Esto restablecerá la escala y ELIMINAR todas sus entradas.\n\n¿Desea continuar?</string>
+    <string name="history">Historia</string>
+    <string name="select_events">Seleccionar eventos</string>
+    <string name="m1">1 M</string>
+    <string name="m3">3 M</string>
+    <string name="last">última</string>
+    <string name="name">nombre</string>
+    <string name="insights_event_list_title">Lista de eventos</string>
+
+
+    <string name="insights_event_list_overview">
+        Haga clic en cualquier evento para obtener más información sobre él.\n\n
+        \nAdemás del nombre\n
+        \n|b|la fecha de la última ocasión,\n
+        \n|b|el recuento de ocasiones en los últimos 3 meses y\n
+        \n|b|el recuento de ocasiones en el último mes\n
+        \nse muestran.
+    </string>
+
+    <string name="sort_name_title">Ordenar por nombre</string>
+    <string name="sort_name_explained">
+         <![CDATA[
+            <p>Los eventos están ordenados alfabéticamente de forma predeterminada.</p>
+
+            <p>
+            Haga clic en <b>nombre</b> para invertir la clasificación o para volver a la clasificación alfabética después de que se haya seleccionado otro tipo de clasificación.
+            </p>
+        ]]>
+    </string>
+
+    <string name="sort_last_title">Ordenar por fecha de la última ocasión</string>
+    <string name="sort_last_explained">
+         <![CDATA[
+            <p>Para ordenar los eventos por la fecha de la última ocasión, haga clic en <b>última</b>.</p>
+        ]]>
+    </string>
+
+    <string name="sort_3m_title">Ordenar por número de ocasiones en los últimos 3 meses</string>
+    <string name="sort_3m_explained">
+         <![CDATA[
+            <p>Haga clic en <b>3 M</b> para ordenar los eventos por el número de ocasiones en los últimos 3 meses.</p>
+        ]]>
+    </string>
+
+    <string name="sort_1m_title">Ordenar por número de ocasiones en el último mes</string>
+    <string name="sort_1m_explained">
+         <![CDATA[
+            <p>Haga clic en <b>1 M</b> para ordenar los eventos por el número de ocasiones en el último mes.</p>
+        ]]>
+    </string>
+    <string name="all">todas</string>
+    <string name="custom">personalizado</string>
+    <string name="reset">reiniciar</string>
+    <string name="select_what_to_reset">Seleccionar datos para restablecer</string>
+    <string name="we_are_sorry">Lo siento</string>
+    <string name="cannot_connect_billing_message">El servicio de facturación no está disponible en este momento.\n\nVuelva a intentarlo más tarde.\n\n¡Gracias!</string>
+    <string name="question_events">¿Algún evento actual?</string>
+    <string name="sort_default">estándar</string>
+    <string name="sort_random">aleatorio</string>
+    <string name="sort_custom">personalizado</string>
+    <string name="customize_scale_sort">Orden de escalas</string>
+
+
+    <string name="import_foreign">A partir de Android 11, las aplicaciones predeterminadas no pueden ver datos no multimedia creados por otras aplicaciones.\n\nSi desea importar datos NO creados por su instalación actual de Mood Patterns, primero debe permitirle ver todos los datos.</string>
+    <string name="grant_permission">conceder permiso</string>
+    <string name="continue_without_permission">continuar sin permiso</string>
+    <string name="wait_while_schedule_loads">Espere hasta que se\necargue el horario</string>
+    <string name="alert_type">tipo</string>
+    <string name="alert_direction">dirección</string>
+    <string name="alert_size">talla</string>
+    <string name="alert_duration">duración</string>
+    <string name="alert_last_triggered">ultima vez</string>
+    <string name="archive">archivo</string>
+    <string name="alert_active_since">activo desde</string>
+    <string name="alert_inactive_since">parado desde</string>
+    <string name="alerts">Alertas</string>
+    <string name="problem_saving_alert">No se puede guardar la alerta.\nInténtalo de nuevo.</string>
+    <string name="alert_delete">Eliminar alerta</string>
+    <string name="ask_delete_alert">¿Quieres eliminar esta alerta de forma permanente?</string>
+    <string name="activation">Activación</string>
+    <string name="deactivation">Desactivación</string>
+    <string name="alert_activation_history">Historial de activación</string>
+    <string name="further_mood_scales">Más escalas de humor</string>
+    <string name="restore">restaurar</string>
+    <string name="no_events_in_timeframe">No ocurre ningún evento dentro\ndel rango de tiempo mostrado</string>
+    <string name="no_sleep_in_timeframe">No hay datos de sueño dentro\ndel rango de tiempo mostrado</string>
+    <string name="no_scales_in_timeframe">No hay más escalas dentro\ndel rango de tiempo mostrado</string>
+    <string name="alert_reference">referencia</string>
+    <string name="alert_trigger">disparador de alerta</string>
+    <string name="alert_was_triggered">La alerta se activó el</string>
+    <string name="pattern_change">Cambio en el patrón de humor</string>
+    <string name="nothing_noticeable">nada notable</string>
+
+
+    <string name="insights_feel_fc_help_overview">
+        Esta vista le ayuda a explorar y comparar cómo se siente en diferentes situaciones.\n
+        \nDe forma predeterminada, muestra todas las entradas dentro del rango de fechas dado. Este es el punto de partida para\n
+        \n|b||bs|filtrar|be| as entradas mostradas en función de los datos adicionales y para\n
+        \n|b||bs|comparar|be| selecciones de filtros.
+    </string>
+    <string name="overview">Visión general</string>
+    <string name="help_scale_spinner">Comience seleccionando la |is|escala|ie| que desea explorar.</string>
+    <string name="help_date_range">Haga clic para cambiar el rango de fechas.\n\nLos datos utilizados se limitan a esta selección.</string>
+    <string name="insights_feel_fc_help_locations">Solo se incluyen las entradas en lugares seleccionados.\n\nSi este filtro no está activado, se seleccionan todas las lugares.</string>
+    <string name="insights_feel_fc_help_persons">Solo se incluyen las entradas con al menos una de las personas seleccionadas presentes.
+        \n\nSi este filtro no está activado, las entradas no se filtran con respecto a la presencia de personas.</string>
+    <string name="insights_feel_fc_help_act1">Solo se utilizan las entradas con una de las actividades primarias seleccionadas.\n
+        \nSi este filtro no está activado, las entradas no se filtran con respecto a la actividad primaria.</string>
+    <string name="insights_feel_fc_help_act2">Solo se utilizan las entradas con una de las actividades secundarias seleccionadas.\n
+        \nSi este filtro no está activado, las entradas no se filtran con respecto a la actividad secundaria.</string>
+    <string name="insights_feel_fc_help_show">
+        Haga clic para mostrar la trayectoria de la selección de comparación.\n
+        \nPara mejorar la legibilidad del gráfico, la trayectoria de la selección de comparación se muestra como una línea suavizada, si es posible.\n
+        \nDe forma predeterminada, esta selección incluye todas las entradas en el rango de fechas dado. Los siguientes pasos ilustrarán cómo se puede ajustar.
+    </string>
+    <string name="insights_feel_fc_help_inherit">Haga clic para usar la selección de filtro actual como selección de comparación.</string>
+    <string name="insights_feel_fc_help_inspect">Haga clic para ver y editar la selección de comparación actual.</string>
+    <string name="insights_feel_fc_help_reset">Haga clic para restablecer la selección de comparación actual a todas las entradas.</string>
+    <string name="time_of_entry">Hora de entrada</string>
+    <string name="select_time_of_entry">Seleccione la hora de la entrada.\n\n¿Es en este momento o fue un momento específico en el pasado?</string>
+    <string name="time_of_event">Hora del evento</string>
+    <string name="select_time_of_event">Seleccione la hora del evento.\n\n¿Es en este momento o fue un momento específico en el pasado?</string>
+    <string name="now">ahora</string>
+    <string name="past">pasado</string>
+    <string name="select_entry_date">Seleccione la fecha de entrada</string>
+    <string name="select_entry_time">Seleccione la hora de entrada</string>
+    <string name="select_event_date">Seleccione la fecha del evento</string>
+    <string name="select_event_time">Seleccione la hora del evento</string>
+    <string name="pref_title_timeformat_24h">Formato de 24 horas</string>
+    <string name="pref_summary_24h">La hora se mostrará en formato de 24 horas.</string>
+    <string name="pref_summary_12h">La hora se mostrará en formato de 12 horas.</string>
+    <string name="date_header">fecha</string>
+    <string name="mean_abbr">val</string>
+    <string name="variance_abbr">dis</string>
+    <string name="dynamics_abbr">din</string>
+    <string name="dynamics">dinámica</string>
+    <string name="count_abbr">cnt</string>
+    <string name="date_week">YYYY-\'W\'ww</string>
+    <string name="date_month">MMM yyyy</string>
+    <string name="date_year">yyyy</string>
+
+    <string name="license_fail">Lo sentimos, la verificación de la licencia de Google falló.
+         \nMood Patterns oficialmente solo está disponible en la Play Store de Google.
+         \nSi lo ha instalado desde una fuente diferente, desinstálelo y vuelva a instalarlo desde allí.\n
+         \nSi el problema persiste, intente:
+         \n1. desinstalar Mood Patterns
+         \n2. borrar el almacenamiento y el caché de la aplicación Google Play Store
+         \n3. (reinicia tu dispositivo) [pruébalo una vez sin este paso primero]
+         \n4. reinstalar Mood Patterns\n
+         \n¡Gracias!
+    </string>
+    <string name="lowest">más bajo</string>
+    <string name="highest">más alto</string>
+    <string name="share_slect_type">Tipo de distribución</string>
+    <string name="share_slect_type_options">El contenido de esta vista se puede distribuir como una imagen o como una hoja de cálculo (archivo CSV).</string>
+    <string name="share_spreadsheet">hoja de cálculo</string>
+    <string name="share_image">imagen</string>
+
+    <string name="insights_history_numbers_overview">
+        Esta vista proporciona estadísticas agregadas de |is|escalas de humor|ie|.\n
+        \nEl tamaño relativo de todos los números está codificado por colores para facilitar el reconocimiento de patrones.\n
+        \nLa vista se puede distribuir como una imagen o como una hoja de cálculo (archivo CSV).
+    </string>
+    <string name="insights_history_numbers_overview_title">Historia en Números</string>
+    <string name="help_date_type_spinner">
+        Seleccione la unidad de agregación de las estadísticas.\n
+         \nLas opciones disponibles son\n
+         \n|b|día\n
+         \n|b|semana\n
+         \n|b|mes\n
+         \n|b|año.
+    </string>
+
+    <string name="insights_history_numbers_value">
+        Indica el valor de escala promedio. \n
+        \nAl menos para escalas no personalizadas, mayor suele ser mejor.\n
+        \nCalculado como |is|media aritmética|ie|.
+    </string>
+
+    <string name="insights_history_numbers_spread">
+        Indica qué tan lejos están las entradas en la escala unas de otras.\n
+        \nCalculado como |is|desviación estándar|ie|.
+    </string>
+
+    <string name="insights_history_numbers_dyn">
+        Indica cuánto cambian los valores de la escala de una entrada a la siguiente.\n
+         \nCalculado como la |is|distancia absoluta media|ie| entre valores consecutivos.
+    </string>
+
+    <string name="insights_history_numbers_cnt">
+        Indica el número de entradas utilizadas para calcular las estadísticas.
+        \n\nCuanto mayor es el recuento, más confiables son las estadísticas.
+    </string>
+    <string name="pm">PM</string>
+    <string name="am">AM</string>
+    <string name="adjust_start">Ajustar la hora de inicio</string>
+    <string name="midnight_shift">Cambiar el inicio del día desde la medianoche</string>
+    <string name="scheduled">Fijo</string>
+    <string name="random">Aleatorio</string>
+    <string name="set_random_schedule">Establecer horario aleatorio</string>
+    <string name="set_fix_schedule">Establecer horario fijo</string>
+    <string name="pref_title_past_shortcut">Atajo para entradas pasadas</string>
+    <string name="pref_summary_past_shortcut">En lugar de un cuadro de diálogo para decidir entre AHORA y PASADO, muestre un pequeño botón adicional para ingresar entradas anteriores directamente.</string>
+    <string name="time_random_part_">Duración del período aleatorio:</string>
+    <string name="time_random_part">Duración del período aleatorio</string>
+    <string name="merge">unir</string>
+    <string name="color">color</string>
+    <string name="icon">icono</string>
+    <string name="type">tipo</string>
+    <string name="select_master_activity">Seleccione la actividad que se utilizará para todas las entradas</string>
+    <string name="select_icon_color">Seleccione el color del icono</string>
+    <string name="select_icon">Seleccione el icono</string>
+    <string name="select_type">Seleccione el tipo</string>
+    <string name="select_master_location">Seleccione el lugar que se utilizará para todas las entradas</string>
+    <string name="select_master_event">Seleccione el evento que se utilizará para todas las entradas</string>
+    <string name="select_master_person">Seleccione la persona que se utilizará para todas las entradas</string>
+    <string name="select_master_factor">Seleccione el factor que se utilizará para todas las entradas</string>
+    <string name="edit_multi">Editar varios elementos</string>
+    <string name="pref_title_performance_smart_answer_prediction">Predicción de respuesta inteligente</string>
+    <string name="pref_summary_performance_smart_answer_prediction">Permite la clasificación inteligente de datos adicionales en encuestas. La preparación lleva más tiempo.</string>
+    <string name="enter_sleep">registrar el sueño</string>
+    <string name="factors">Factores</string>
+    <string name="in_standard_surveys">en encuestas estándar</string>
+    <string name="in_separate_surveys">en encuestas separadas</string>
+    <string name="automatically">automáticamente</string>
+
+
+    <string name="csv_export_note">Solo se exportarán los datos de las escalas actualmente seleccionadas y los datos adicionales seleccionados actualmente.\n\nLas exportaciones de CSV no se pueden volver a importar.</string>
+    <string name="select_year">Seleccionar año</string>
+    <string name="scale_header">escala</string>
+    <string name="percent">%</string>
+    <string name="top_5">Top 5</string>
+    <string name="more_frequent_than_usual">Más frecuente de lo habitual</string>
+    <string name="or">OR</string>
+    <string name="activities_primary">actividades primarias</string>
+    <string name="activities_secondary">actividades secundarias</string>
+    <string name="factor">factor</string>
+    <string name="person">persona</string>
+    <string name="no_notes">no hay notas</string>
+    <string name="no_events">no hay eventos</string>
+    <string name="no_sleep_data">no hay datos sobre el sueño</string>
+    <string name="no_usage">no hay datos de uso del teléfono</string>
+    <string name="characteristic">característica</string>
+    <string name="filter">filtrar</string>
+    <string name="select_to_display">Seleccionar para mostrar</string>
+
+    <string name="cis_man">Hombre cis</string>
+    <string name="cis_woman">Mujer cis</string>
+    <string name="trans_man">Hombre trans</string>
+    <string name="trans_woman">Mujer trans</string>
+    <string name="genderqueer">Género queer</string>
+    <string name="non_binary">Género no binario</string>
+    <string name="two_spirit">Dos espíritus</string>
+    <string name="weekly_report">Reporte semanal</string>
+    <string name="pref_weekly_report_summary">Notificación cuando el informe semanal está disponible</string>
+    <string name="weekly_report_available">El informe semanal está disponible.</string>
+    <string name="search">Buscar</string>
+    <string name="day_of_week">día de la semana</string>
+    <string name="surveys">Encuestas</string>
+    <string name="select_csv_export">¿Qué quieres exportar?</string>
+    <string name="usage_permission_reason">Otorgue permiso para acceder a los datos de uso para utilizar esta función.</string>
+    <string name="usage_permission_import">La recopilación de datos de uso del teléfono se activó en la base de datos importada. Para utilizar esta función, conceda permiso de uso.</string>
+    <string name="deactivate">desactivar</string>
+    <string name="usage">Uso del teléfono</string>
+    <string name="package_">paquete</string>
+    <string name="app">aplicación</string>
+    <string name="milliseconds">milisegundos</string>
+    <string name="avg_usage">Ø tiempo por día</string>
+    <string name="notable_changes">Cambios sustanciales</string>
+    <string name="phone_total">teléfono [total]</string>
+    <string name="pref_performance_remove_non_response_title">Eliminar las no respuestas</string>
+    <string name="never">nunca</string>
+    <string name="pref_performance_remove_non_response_explained">La eliminación de las no respuestas reduce el tamaño de la base de datos y acelera las consultas.
+        \n\nSe están planificando estadísticas sobre las no respuestas (pero aún no se han implementado). Después de la eliminación, no van a estar disponibles para el tiempo antes.</string>
+    <string name="remove_non_responses_success">Se eliminaron con éxito las no respuestas.</string>
+    <string name="remove_non_responses_fail">Ha fallado la eliminación de las no respuestas.</string>
+</resources>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="sleep_tosleep_hours">(%s and %s\n to fall asleep)</string>
+    <string name="sleep_tosleep_minutes">(%s to fall asleep)</string>
+    <string name="sleep_sleepingtime_hours">(%s and %s\n of sleep)</string>
+    <string name="sleep_sleepingtime_minutes">(%s of sleep)</string>
+
+    <string name="log_header">Surveys from %s\nto %s</string>
+    <string name="log_sleep_header">Sleep data from %s\nto %s</string>
+    <string name="log_notes_header">Notes from %s\nto %s</string>
+    <string name="log_usage_header">Phone usage data from\n%s to %s</string>
+    <string name="date_range">Data from %s to %s</string>
+
+    <string name="password_wrong">The password was either wrong or the selected file is no %s database.</string>
+    <string name="db_notworking">An error occurred while importing the file.  Make sure it is a %s database.</string>
+    <string name="io_reset">This will erase your %s data.\n\nYou can either remove all data or a custom selection of your data.</string>
+    <string name="edit_">Edit: %s</string>
+
+
+    <string name="median_50_90"><![CDATA[<font color=%s>median</font> - <font color=%s>50%%</font> - <font color=%s>90%%</font>]]></string>
+    <string name="estimate_ci"><![CDATA[<font color=%s>estimate</font> - <font color=%s>confidence range</font>]]></string>
+
+    <string name="no_cor_between">No correlation data between %s and %s</string>
+    <string name="y_on_x">%s on\n%s</string>
+    
+    <string name="h_and_min">%dh %dmin </string>
+
+    <string name="new_">New: %s</string>
+
+    <string name="cannot_remove_while_selected">Cannot remove %1$s\nwhile %2$s remain.</string>
+
+    <string name="pred_loc">be at: %s</string>
+    <string name="pred_act1">do: %s</string>
+    <string name="pred_act2">do (additionally): %s</string>
+    <string name="pred_per">meet: %s</string>
+    <string name="pred_fac">f: %s</string>
+    <string name="pred_use">use: %s</string>
+
+
+    <string name="license_error_">License error: %d</string>
+    <string name="fixed_survey">Fixed survey\n%1$s + %2$s random</string>
+    <string name="data_from_the_x_prev_days">Data from the last %d days</string>
+    <string name="data_from_the_x_prev_weeks">Data from the last %d weeks</string>
+    <string name="no_data_in_week">No data in week %1d in %2d</string>
+    <string name="report_of_week_in_year">week %1d in %2d</string>
+    <string name="weekly_report_filename">weekly_report_%1d_%2d</string>
+    <string name="last_night_">Last night (%s)</string>
+    <string name="md_actual_period">_Note: The actually assessed period is from **%s** to **%s**._</string>
+
+    <string name="pref_performance_remove_non_response_summary">Removes data about unanswered survey prompts.\nLast: %s</string>
+
+
+</resources>

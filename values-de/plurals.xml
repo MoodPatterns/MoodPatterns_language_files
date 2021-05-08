@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name ="prbo_desc">
+        <item quantity="one">Durchschnittlich eine Befragung je Stunde.</item>
+        <item quantity="other">Durchschnittlich eine Befragung alle %d Stunden.</item>
+    </plurals>
+
+    <plurals name="count_hours">
+        <item quantity="one">1 h</item>
+        <item quantity="other">%d h</item>
+    </plurals>
+
+    <plurals name="count_minutes">
+        <item quantity="one">1 min</item>
+        <item quantity="other">%d min</item>
+    </plurals>
+    <plurals name="xh">
+        <item quantity="one">%d Stunde</item>
+        <item quantity="other">%d Stunden</item>
+    </plurals>
+    <plurals name="mxh">
+        <item quantity="one">-%d Stunde</item>
+        <item quantity="other">-%d Stunden</item>
+    </plurals>
+    <plurals name="xd">
+        <item quantity="one">%d Tag</item>
+        <item quantity="other">%d Tage</item>
+    </plurals>
+    <plurals name="mxd">
+        <item quantity="one">-%d Tag</item>
+        <item quantity="other">-%d Tage</item>
+    </plurals>
+    <plurals name="count_minutes_long">
+        <item quantity="one">eine Minute</item>
+        <item quantity="other">%d Minuten</item>
+    </plurals>
+    <plurals name="count_hours_long">
+        <item quantity="one">eine Stunde</item>
+        <item quantity="other">%d Stunden</item>
+    </plurals>
+
+</resources>

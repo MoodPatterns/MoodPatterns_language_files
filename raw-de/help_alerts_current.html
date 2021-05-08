@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+    <body>
+
+
+        <div style="margin: 3em 10%;">
+
+            <h2>Alarme</h2>
+            <p>
+                Alarme automatisieren die Überwachung des Verlaufs und senden eine Benachrichtigung, falls Änderungen im Stimmungsmuster auftreten.
+            </p>
+            <p>
+                Um sinnvolle Benachrichtigungen zu gewährleisten, muss durchschnittlich pro Tag zumindest ein Eintrag vorliegen damit ein Alarm ausgelöst werden kann.
+            </p>
+            <h3>Alarmeinstellungen</h3>
+            <p>
+                Je Alarm muss die <b>Skala</b> und der <b>Typ</b>, die <b>Richtung</b>, die <b>Größe</b> und die <b>Dauer</b> der zu beobachtenden Veränderung festgelegt werden.
+            </p>
+
+            <h4>Skala</h4>
+            <p>
+                Wählen sie die zu beobachtende Skala.<br/>
+                <i>Beachte:</i> Alle gerade aktiven Skalen können gewählt werden. Selbst ohne <i>Pro-Status</i> werden <i>Pro-Skalen</i> beobachtet. Allerdings kann ohne <i>Pro</i>, der den Alarm auslösende Verlauf nur einmal durch Klick auf die Benachrichtung eingesehen werden.
+            </p>
+
+            <h4>Typ</h4>
+            <p>
+                Der Typ beschreibt welche Art der Veränderung überwacht werden soll.
+            </p>
+            <ul>
+                <li><b>NIVEAU</b>: Anstieg oder Abfall des durchschnittlichen Befindens. Die beobachtete Größe ist der mittlere Skalenwert.</li>
+                <li><b>VARIATION</b>: Veränderung in der Variation des Befindens. Die beobachtete Größe ist die Varianz der Skalenwerte</li>
+                <li><b>DYNAMIK</b>: Veränderung in wie ähnlich sich benachbarte Einträge sind. Die beobachtete Größe ist der mittlere absolute Abstands zwischen aufeinander folgenden Einträgen</li>
+            </ul>
+
+            <h4>Richtung</h4>
+            <ul>
+                <li><b>STEIGT</b>: Ein Alarm wird ausgelöst, wenn das Kriterium im Beobachtungszeitraum im Kontrast zum Vergleichszeitraum ansteigt.</li>
+                <li><b>FÄLLT</b>: Ein Alarm wird ausgelöst, wenn das Kriterium im Beobachtungszeitraum im Kontrast zum Vergleichszeitraum abfällt.</li>
+            </ul>
+
+            <h4>Größe</h4>
+            <p>
+                Legt die benötigte Mindestgröße der Veränderung für einen Alarm fest.
+            </p>
+            <h6>NIVEAU</h6>
+            <ul>
+                <li><b>KLEIN</b>: 0.2 Standardabweichungen</li>
+                <li><b>MITTEL</b>: 0.5 Standardabweichungen</li>
+                <li><b>GROSS</b>: 0.8 Standardabweichungen</li>
+            </ul>
+            <h6>VARIATION & DYNAMIK</h6>
+            <ul>
+                <li><b>KLEIN</b>: 20 %</li>
+                <li><b>MITTEL</b>: 50 %</li>
+                <li><b>GROSS</b>: 80 %</li>
+            </ul>
+
+            <p>
+                <i>Beachte:</i> Die notwendige Veränderungsgröße ist somit abhängig von der Streuung der eingegebenen Skalenwerte und nicht absolut. Falls die Stimmung immer sehr gleichmäßig ist reichen schon kleinere Veränderungen um einen Alarm auszulösen.
+                Falls große Sprünge hingegen die Regel sind, so muss auch die Veränderung entsprechend groß sein.
+            </p>
+
+            <h4>Dauer</h4>
+            <p>
+                Die Dauer legt die Länge des Beobachtungszeitraums und des unmittelbar davor liegenden Vergleichszeitraums fest.
+            </p>
+
+            <h3>Alarmverwaltung</h3>
+            <p>Es können beliebig viele Alarme angelegt werden.</p>
+            <p>Ein Alarm kann auf drei Arten gestoppt werden:</p>
+            <ol>
+                <li><i>Deactivieren</i> mit dem Schalter in der oberen, linken Ecke.</li>
+                <li><i>Archivieren</i> - der Alarm wird ins <i>ARCHIV</i> verschoben, seine Daten bleiben aber zugänglich und er kann wiederhergestellt werden.</li>
+                <li><i>Löschen</i> - der Alarm und alle damit verbundenen Daten werden dauerhaft entfernt.</li>
+            </ol>
+            <p>Durch das <i>Bearbeiten</i> eines bestehenden Alarms wird ein neuer Alarm angelegt und die Originalversion in Archiv verschoben.</p>
+
+
+        </div>
+
+    </body>
+</html>

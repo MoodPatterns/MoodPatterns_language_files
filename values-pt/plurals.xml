@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name ="prbo_desc">
+        <item quantity="one">Em média, %d pesquisa por hora.</item>
+        <item quantity="other">Em média, uma pesquisa a cada %d horas.</item>
+    </plurals>
+
+    <plurals name="count_hours">
+        <item quantity="one">%d h</item>
+        <item quantity="other">%d h</item>
+    </plurals>
+
+    <plurals name="count_minutes">
+        <item quantity="one">%d min</item>
+        <item quantity="other">%d min</item>
+    </plurals>
+    <plurals name="xh">
+        <item quantity="one">%d hora</item>
+        <item quantity="other">%d horas</item>
+    </plurals>
+    <plurals name="mxh">
+        <item quantity="one">-%d hora</item>
+        <item quantity="other">-%d horas</item>
+    </plurals>
+    <plurals name="xd">
+        <item quantity="one">%d dia</item>
+        <item quantity="other">%d dias</item>
+    </plurals>
+    <plurals name="mxd">
+        <item quantity="one">-%d dia</item>
+        <item quantity="other">-%d dias</item>
+    </plurals>
+    <plurals name="count_minutes_long">
+        <item quantity="one">%d minuto</item>
+        <item quantity="other">%d minutos</item>
+    </plurals>
+    <plurals name="count_hours_long">
+        <item quantity="one">%d hora</item>
+        <item quantity="other">%d horas</item>
+    </plurals>
+
+</resources>

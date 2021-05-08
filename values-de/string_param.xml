@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="sleep_tosleep_hours">(%s und %s\n um einzuschlafen)</string>
+    <string name="sleep_tosleep_minutes">(%s um einzuschlafen)</string>
+    <string name="sleep_sleepingtime_hours">(%s und %s\n Schlaf)</string>
+    <string name="sleep_sleepingtime_minutes">(%s Schlaf)</string>
+
+    <string name="log_header">Befragungen vom %s\nbis zum %s</string>
+    <string name="log_sleep_header">Schlafdaten vom %s\nbis zum %s</string>
+    <string name="log_notes_header">Notizen vom %s\nbis zum %s</string>
+    <string name="log_usage_header">Telefonnutzungsdaten vom\n%s bis zum %s</string>
+    <string name="date_range">Daten vom %s bis zum %s</string>
+
+    <string name="password_wrong">Das Passwort war entweder falsch oder die gewählte Datei ist keine %s Datenbank.</string>
+    <string name="db_notworking">Beim Importieren der Daten ist ein Fehler aufgetreten. Stellen Sie sicher, dass es eine %s Datenbank ist.</string>
+    <string name="io_reset">Ihre %s Daten werden gelöscht.\n\nSie können entweder alle oder nur bestimmte Daten zurücksetzten.</string>
+    <string name="edit_">Bearbeite: %s</string>
+
+
+    <string name="median_50_90"><![CDATA[<font color=%s>Median</font> - <font color=%s>50%%</font> - <font color=%s>90%%</font>]]></string>
+    <string name="estimate_ci"><![CDATA[<font color=%s>Schätzung</font> - <font color=%s>Vertrauensbereich</font>]]></string>
+
+    <string name="no_cor_between">Keine Zusammenhangsdaten zw. %s und %s</string>
+    <string name="y_on_x">%s mit\n%s</string>
+
+    <string name="h_and_min">%dh %dmin </string>
+
+    <string name="new_">Neu: %s</string>
+
+    <string name="cannot_remove_while_selected">%1$s können nicht entfernt werden,\nwenn %2$s beibehalten werden.</string>
+
+    <string name="pred_loc">wo: %s</string>
+    <string name="pred_act1">was: %s</string>
+    <string name="pred_act2">was (nebenbei): %s</string>
+    <string name="pred_per">mit wem: %s</string>
+    <string name="pred_fac">F: %s</string>
+    <string name="pred_use">nutze: %s</string>
+
+    <string name="license_error_">Lizenzfehler: %d</string>
+
+    <string name="fixed_survey">Fixe Befragung %1$s + %2$s zufällig</string>
+
+
+    <string name="data_from_the_x_prev_days">Daten von den letzten %d Tagen</string>
+    <string name="data_from_the_x_prev_weeks">Daten von den letzten %d Wochen</string>
+    <string name="no_data_in_week">Keine Daten in Woche %1d in %2d</string>
+    <string name="report_of_week_in_year">Woche %1d in %2d</string>
+    <string name="weekly_report_filename">Wochenbericht_%1d_%2d</string>
+
+
+    <string name="last_night_">Letzt Nacht (%s)</string>
+    <string name="md_actual_period">_Beachte: Der tatsächlich erfasste Zeitraum ist vom **%s** bis zum **%s**._</string>
+
+    <string name="pref_performance_remove_non_response_summary">Entfernt Daten zu unbeantworteten Befragungsaufforderungen.\nZuletzt: %s</string>
+
+</resources>

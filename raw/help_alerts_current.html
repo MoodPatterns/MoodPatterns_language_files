@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+    <body>
+
+
+        <div style="margin: 3em 10%;">
+
+            <h2>Alerts</h2>
+            <p>
+                You can set alerts to monitor your mood and be notified if something changes.
+            </p>
+            <p>
+                To ensure meaningful notifications, there must be at least one entry per day on average so that an alarm can be triggered.
+            </p>
+            <h3>Alert settings</h3>
+            <p>
+                To set an alert you need to decide on a <b>scale</b> and the <b>type</b>, the <b>direction</b>, the <b>size</b>, and the <b>duration</b> of the change you want to look out for.
+            </p>
+
+            <h4>Scale</h4>
+            <p>
+                Select the scale of interest. <br/>
+                <i>Note:</i> You can choose all active scales. <i>Pro scales</i> will be monitored, even without <i>Pro status</i>. However, without <i>Pro</i>, the display of the triggering sequence is only available once, by clicking the alert notification.
+            </p>
+
+            <h4>Type</h4>
+            <p>
+                Describes the kind of change that should be monitored.
+            </p>
+            <ul>
+                <li><b>LEVEL</b>: general increase or decrease; monitors: average value of the scale</li>
+                <li><b>VARIATION</b>: changes in the variation; monitors: variance of the scale</li>
+                <li><b>DYNAMICS</b>: changes in how similar adjacent entries are; monitors: mean absolute distance between successive entries</li>
+            </ul>
+
+            <h4>Direction</h4>
+            <p>
+                Describes the direction of change that should be monitored.
+            </p>
+            <ul>
+                <li><b>INCREASE</b>: you will be alerted if the monitored characteristic increases</li>
+                <li><b>DECREASE</b>: you will be alerted if the monitored characteristic decreases</li>
+            </ul>
+
+            <h4>Size</h4>
+            <p>
+                Sets the required minimum change to trigger an alert.
+            </p>
+            <h6>LEVEL</h6>
+            <ul>
+                <li><b>SMALL</b>: 0.2 standard deviations</li>
+                <li><b>MEDIUM</b>: 0.5 standard deviations</li>
+                <li><b>LARGE</b>: 0.8 standard deviations</li>
+            </ul>
+            <h6>VARIATION & DYNAMICS</h6>
+            <ul>
+                <li><b>SMALL</b>: 20 %</li>
+                <li><b>MEDIUM</b>: 50 %</li>
+                <li><b>LARGE</b>: 80 %</li>
+            </ul>
+            <p>
+                <i>Note:</i> That means that the <i>size</i> is relative to the usual variation of the scale values. If regularly there is not much change, then even a small value drift will trigger an alert.
+                However, if big jumps are commonplace, then a change needs to exceed those to get noticed.
+            </p>
+
+            <h4>Duration</h4>
+            <p>
+                The duration sets the time-frame of the observational period and its preceding control period.
+            </p>
+
+            <h3>Alert management</h3>
+            <p>You can have an arbitrary number of alerts.</p>
+            <p>If you want to stop an alert you have three options:</p>
+            <ol>
+                <li>You can <i>deactivate</i> it with the switch in its top-left corner.</li>
+                <li>You can <i>archive</i> it. This moves the alert to the <i>ARCHIVE</i>, from where you still have access to its data and can restore it anytime you like.</li>
+                <li>You can <i>delete</i> it. This will permanently remove the alert and all data associated with it.</li>
+            </ol>
+            <p>If you <i>edit</i> an existing alert, then a new alert will automatically be saved, and the previous version will be archived.</p>
+
+
+        </div>
+
+    </body>
+</html>

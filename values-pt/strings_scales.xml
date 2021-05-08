@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- scales additional info -->
+
+
+    <string name="scale_misc_01_location_name">lugar</string>
+    <string name="scale_misc_02_company_name">pessoas</string>
+    <string name="scale_misc_03_action_primary_name">atividade primária</string>
+    <string name="scale_misc_04_action_secondary_name">atividade secundária</string>
+    <string name="scale_misc_05_factors_name">fatores</string>
+    <string name="scale_misc_06_notes_name">notas</string>
+    <string name="scale_misc_07_events_name">eventos</string>
+    <string name="scale_misc_08_sleep_name">sono</string>
+    <string name="scale_misc_09_usage_name">uso do telefone</string>
+
+    <string-array name="scales_legacy_04">
+        <item>{\"id\":\"sad_happy\",\"start\":\"triste\",\"end\":\"feliz\",\"color\":\"#64DD17\"}</item>
+        <item>{\"id\":\"discontent_content\",\"start\":\"descontente\",\"end\":\"contente\",\"color\":\"#CDDC39\"}</item>
+        <item>{\"id\":\"stressed_relaxed\",\"start\":\"estressado\",\"end\":\"relaxado\",\"color\":\"#00BCD4\"}</item>
+        <item>{\"id\":\"tired_rested\",\"start\":\"cansado\",\"end\":\"descansado\",\"color\":\"#00BFA5\"}</item>
+        <item>{\"id\":\"bored_interested\",\"start\":\"entediado\",\"end\":\"interessado\",\"color\":\"#DD2C00\"}</item>
+        <item>{\"id\":\"pessimistic_optimistic\",\"start\":\"pessimista\",\"end\":\"otimista\",\"color\":\"#8BC34A\"}</item>
+        <item>{\"id\":\"hopeless_hopeful\",\"start\":\"sem&#160;esperança\",\"end\":\"esperançoso\",\"color\":\"#00C853\"}</item>
+        <item>{\"id\":\"worthless_valuable\",\"start\":\"sem&#160;valor\",\"end\":\"valioso\",\"color\":\"#4CAF50\"}</item>
+        <item>{\"id\":\"helpless_competent\",\"start\":\"impotente\",\"end\":\"competente\",\"color\":\"#1B5E20\"}</item>
+        <item>{\"id\":\"restless_serene\",\"start\":\"inquieto\",\"end\":\"sereno\",\"color\":\"#009688\"}</item>
+        <item>{\"id\":\"alert_careless\",\"start\":\"alerta\",\"end\":\"despreocupado\",\"color\":\"#006064\"}</item>
+        <item>{\"id\":\"distracted_focused\",\"start\":\"distraído\",\"end\":\"focado\",\"color\":\"#FF9800\"}</item>
+        <item>{\"id\":\"slow_speedy\",\"start\":\"lento\",\"end\":\"rápido\",\"color\":\"#FF6D00\"}</item>
+        <item>{\"id\":\"lethargic_energetic\",\"start\":\"letárgico\",\"end\":\"enérgico\",\"color\":\"#FF5722\"}</item>
+        <item>{\"id\":\"lonely_connected\",\"start\":\"solitário\",\"end\":\"conectado\",\"color\":\"#78909C\"}</item>
+        <item>{\"id\":\"withdrawn_social\",\"start\":\"retirado\",\"end\":\"social\",\"color\":\"#455A64\"}</item>
+        <item>{\"id\":\"selfconscious_confident\",\"start\":\"auto-consciente\",\"end\":\"confiante\",\"color\":\"#263238\"}</item>
+        <item>{\"id\":\"anxious_calm\",\"start\":\"ansioso\",\"end\":\"tranquilo\",\"color\":\"#2196F3\"}</item>
+        <item>{\"id\":\"afraid_unafraid\",\"start\":\"assustado\",\"end\":\"destemido\",\"color\":\"#304FFE\"}</item>
+        <item>{\"id\":\"worried_untroubled\",\"start\":\"preocupado\",\"end\":\"sem&#160;preocupações\",\"color\":\"#3F51B5\"}</item>
+        <item>{\"id\":\"unsafe_safe\",\"start\":\"inseguro\",\"end\":\"seguro\",\"color\":\"#1A237E\"}</item>
+        <item>{\"id\":\"irritable_amiable\",\"start\":\"irritável\",\"end\":\"amável\",\"color\":\"#D500F9\"}</item>
+        <item>{\"id\":\"angry_peaceful\",\"start\":\"zangado\",\"end\":\"pacífico\",\"color\":\"#9C27B0\"}</item>
+        <item>{\"id\":\"confused_clear\",\"start\":\"confuso\",\"end\":\"claro\",\"color\":\"#673AB7\"}</item>
+        <item>{\"id\":\"pain_comfort\",\"start\":\"dor\",\"end\":\"conforto\",\"color\":\"#9E9D24\"}</item>
+        <item>{\"id\":\"numb_responsive\",\"start\":\"entorpecido\",\"end\":\"sensível\",\"color\":\"#795548\"}</item>
+        <item>{\"id\":\"craving_nocraving\",\"start\":\"desejo\",\"end\":\"sem&#160;desejo\",\"color\":\"#3E2723\"}</item>
+        <item>{\"id\":\"hurt_whole\",\"start\":\"ferido\",\"end\":\"inteiro\",\"color\":\"#33691E\"}</item>
+        <item>{\"id\":\"external_internal\",\"start\":\"foco&#160;externo\",\"end\":\"foco&#160;interno\",\"color\":\"#0091EA\"}</item>
+        <item>{\"id\":\"extro_intro\",\"start\":\"extrospectivo\",\"end\":\"introspectivo\",\"color\":\"#00B8D4\"}</item>
+    </string-array>
+
+    <string-array name="scales_05">
+        <item>{\"id\":\"sad_happy\",\"start\":\"triste\",\"end\":\"feliz\",\"color\":\"#64DD17\"}</item>
+        <item>{\"id\":\"discontent_content\",\"start\":\"descontente\",\"end\":\"contente\",\"color\":\"#CDDC39\"}</item>
+        <item>{\"id\":\"stressed_relaxed\",\"start\":\"estressado\",\"end\":\"relaxado\",\"color\":\"#00BCD4\"}</item>
+        <item>{\"id\":\"tired_rested\",\"start\":\"cansado\",\"end\":\"descansado\",\"color\":\"#00BFA5\"}</item>
+        <item>{\"id\":\"bored_interested\",\"start\":\"entediado\",\"end\":\"interessado\",\"color\":\"#DD2C00\"}</item>
+        <item>{\"id\":\"pessimistic_optimistic\",\"start\":\"pessimista\",\"end\":\"otimista\",\"color\":\"#8BC34A\"}</item>
+        <item>{\"id\":\"hopeless_hopeful\",\"start\":\"sem&#160;esperança\",\"end\":\"esperançoso\",\"color\":\"#00C853\"}</item>
+        <item>{\"id\":\"worthless_valuable\",\"start\":\"sem&#160;valor\",\"end\":\"valioso\",\"color\":\"#4CAF50\"}</item>
+        <item>{\"id\":\"helpless_competent\",\"start\":\"impotente\",\"end\":\"competente\",\"color\":\"#1B5E20\"}</item>
+        <item>{\"id\":\"restless_serene\",\"start\":\"inquieto\",\"end\":\"sereno\",\"color\":\"#009688\"}</item>
+        <item>{\"id\":\"alert_careless\",\"start\":\"alerta\",\"end\":\"despreocupado\",\"color\":\"#006064\"}</item>
+        <item>{\"id\":\"distracted_focused\",\"start\":\"distraído\",\"end\":\"focado\",\"color\":\"#FF9800\"}</item>
+        <item>{\"id\":\"slow_speedy\",\"start\":\"lento\",\"end\":\"rápido\",\"color\":\"#FF6D00\"}</item>
+        <item>{\"id\":\"lethargic_energetic\",\"start\":\"letárgico\",\"end\":\"enérgico\",\"color\":\"#FF5722\"}</item>
+        <item>{\"id\":\"lonely_connected\",\"start\":\"solitário\",\"end\":\"conectado\",\"color\":\"#78909C\"}</item>
+        <item>{\"id\":\"withdrawn_social\",\"start\":\"retirado\",\"end\":\"social\",\"color\":\"#455A64\"}</item>
+        <item>{\"id\":\"selfconscious_confident\",\"start\":\"auto-consciente\",\"end\":\"confiante\",\"color\":\"#263238\"}</item>
+        <item>{\"id\":\"anxious_calm\",\"start\":\"ansioso\",\"end\":\"tranquilo\",\"color\":\"#2196F3\"}</item>
+        <item>{\"id\":\"afraid_unafraid\",\"start\":\"assustado\",\"end\":\"destemido\",\"color\":\"#304FFE\"}</item>
+        <item>{\"id\":\"worried_untroubled\",\"start\":\"preocupado\",\"end\":\"sem&#160;preocupações\",\"color\":\"#3F51B5\"}</item>
+        <item>{\"id\":\"unsafe_safe\",\"start\":\"inseguro\",\"end\":\"seguro\",\"color\":\"#1A237E\"}</item>
+        <item>{\"id\":\"irritable_amiable\",\"start\":\"irritável\",\"end\":\"amável\",\"color\":\"#D500F9\"}</item>
+        <item>{\"id\":\"angry_peaceful\",\"start\":\"zangado\",\"end\":\"pacífico\",\"color\":\"#9C27B0\"}</item>
+        <item>{\"id\":\"confused_clear\",\"start\":\"confuso\",\"end\":\"claro\",\"color\":\"#673AB7\"}</item>
+        <item>{\"id\":\"pain_comfort\",\"start\":\"dor\",\"end\":\"conforto\",\"color\":\"#9E9D24\"}</item>
+        <item>{\"id\":\"numb_responsive\",\"start\":\"entorpecido\",\"end\":\"sensível\",\"color\":\"#795548\"}</item>
+        <item>{\"id\":\"craving_nocraving\",\"start\":\"desejo\",\"end\":\"sem&#160;desejo\",\"color\":\"#3E2723\"}</item>
+        <item>{\"id\":\"hurt_whole\",\"start\":\"ferido\",\"end\":\"inteiro\",\"color\":\"#33691E\"}</item>
+        <item>{\"id\":\"external_internal\",\"start\":\"foco&#160;externo\",\"end\":\"foco&#160;interno\",\"color\":\"#0091EA\"}</item>
+        <item>{\"id\":\"extro_intro\",\"start\":\"extrospectivo\",\"end\":\"introspectivo\",\"color\":\"#00B8D4\"}</item>
+        <item>{\"id\":\"custom_01\",\"start\":\"Início (-)\",\"end\":\"Fim (+)\",\"color\":\"#009688\"}</item>
+        <item>{\"id\":\"custom_02\",\"start\":\"Início (-)\",\"end\":\"Fim (+)\",\"color\":\"#009688\"}</item>
+        <item>{\"id\":\"custom_03\",\"start\":\"Início (-)\",\"end\":\"Fim (+)\",\"color\":\"#009688\"}</item>
+        <item>{\"id\":\"custom_04\",\"start\":\"Início (-)\",\"end\":\"Fim (+)\",\"color\":\"#009688\"}</item>
+        <item>{\"id\":\"custom_05\",\"start\":\"Início (-)\",\"end\":\"Fim (+)\",\"color\":\"#009688\"}</item>
+        <item>{\"id\":\"custom_06\",\"start\":\"Início (-)\",\"end\":\"Fim (+)\",\"color\":\"#009688\"}</item>
+        <item>{\"id\":\"custom_07\",\"start\":\"Início (-)\",\"end\":\"Fim (+)\",\"color\":\"#009688\"}</item>
+        <item>{\"id\":\"custom_08\",\"start\":\"Início (-)\",\"end\":\"Fim (+)\",\"color\":\"#009688\"}</item>
+        <item>{\"id\":\"custom_09\",\"start\":\"Início (-)\",\"end\":\"Fim (+)\",\"color\":\"#009688\"}</item>
+        <item>{\"id\":\"custom_10\",\"start\":\"Início (-)\",\"end\":\"Fim (+)\",\"color\":\"#009688\"}</item>
+    </string-array>
+
+
+    <string-array name="scales_09">
+        <item>{\"id\":\"sad_happy\",\"start\":\"triste\",\"end\":\"feliz\",\"color\":\"#64DD17\"}</item>
+        <item>{\"id\":\"discontent_content\",\"start\":\"descontente\",\"end\":\"contente\",\"color\":\"#CDDC39\"}</item>
+        <item>{\"id\":\"stressed_relaxed\",\"start\":\"estressado\",\"end\":\"relaxado\",\"color\":\"#00BCD4\"}</item>
+        <item>{\"id\":\"tired_rested\",\"start\":\"cansado\",\"end\":\"descansado\",\"color\":\"#00BFA5\"}</item>
+        <item>{\"id\":\"bored_interested\",\"start\":\"entediado\",\"end\":\"interessado\",\"color\":\"#DD2C00\"}</item>
+        <item>{\"id\":\"pessimistic_optimistic\",\"start\":\"pessimista\",\"end\":\"otimista\",\"color\":\"#8BC34A\"}</item>
+        <item>{\"id\":\"hopeless_hopeful\",\"start\":\"sem&#160;esperança\",\"end\":\"esperançoso\",\"color\":\"#00C853\"}</item>
+        <item>{\"id\":\"worthless_valuable\",\"start\":\"sem&#160;valor\",\"end\":\"valioso\",\"color\":\"#4CAF50\"}</item>
+        <item>{\"id\":\"helpless_competent\",\"start\":\"impotente\",\"end\":\"competente\",\"color\":\"#1B5E20\"}</item>
+        <item>{\"id\":\"restless_serene\",\"start\":\"inquieto\",\"end\":\"sereno\",\"color\":\"#009688\"}</item>
+        <item>{\"id\":\"alert_careless\",\"start\":\"alerta\",\"end\":\"despreocupado\",\"color\":\"#006064\"}</item>
+        <item>{\"id\":\"distracted_focused\",\"start\":\"distraído\",\"end\":\"focado\",\"color\":\"#FF9800\"}</item>
+        <item>{\"id\":\"slow_speedy\",\"start\":\"lento\",\"end\":\"rápido\",\"color\":\"#FF6D00\"}</item>
+        <item>{\"id\":\"lethargic_energetic\",\"start\":\"letárgico\",\"end\":\"enérgico\",\"color\":\"#FF5722\"}</item>
+        <item>{\"id\":\"lonely_connected\",\"start\":\"solitário\",\"end\":\"conectado\",\"color\":\"#78909C\"}</item>
+        <item>{\"id\":\"withdrawn_social\",\"start\":\"retirado\",\"end\":\"social\",\"color\":\"#455A64\"}</item>
+        <item>{\"id\":\"selfconscious_confident\",\"start\":\"auto-consciente\",\"end\":\"confiante\",\"color\":\"#263238\"}</item>
+        <item>{\"id\":\"anxious_calm\",\"start\":\"ansioso\",\"end\":\"tranquilo\",\"color\":\"#2196F3\"}</item>
+        <item>{\"id\":\"afraid_unafraid\",\"start\":\"assustado\",\"end\":\"destemido\",\"color\":\"#304FFE\"}</item>
+        <item>{\"id\":\"worried_untroubled\",\"start\":\"preocupado\",\"end\":\"sem&#160;preocupações\",\"color\":\"#3F51B5\"}</item>
+        <item>{\"id\":\"unsafe_safe\",\"start\":\"inseguro\",\"end\":\"seguro\",\"color\":\"#1A237E\"}</item>
+        <item>{\"id\":\"irritable_amiable\",\"start\":\"irritável\",\"end\":\"amável\",\"color\":\"#D500F9\"}</item>
+        <item>{\"id\":\"angry_peaceful\",\"start\":\"zangado\",\"end\":\"pacífico\",\"color\":\"#9C27B0\"}</item>
+        <item>{\"id\":\"confused_clear\",\"start\":\"confuso\",\"end\":\"claro\",\"color\":\"#673AB7\"}</item>
+        <item>{\"id\":\"pain_comfort\",\"start\":\"dor\",\"end\":\"conforto\",\"color\":\"#9E9D24\"}</item>
+        <item>{\"id\":\"numb_responsive\",\"start\":\"entorpecido\",\"end\":\"sensível\",\"color\":\"#795548\"}</item>
+        <item>{\"id\":\"craving_nocraving\",\"start\":\"desejo\",\"end\":\"sem&#160;desejo\",\"color\":\"#3E2723\"}</item>
+        <item>{\"id\":\"hurt_whole\",\"start\":\"ferido\",\"end\":\"inteiro\",\"color\":\"#33691E\"}</item>
+        <item>{\"id\":\"external_internal\",\"start\":\"foco&#160;externo\",\"end\":\"foco&#160;interno\",\"color\":\"#0091EA\"}</item>
+        <item>{\"id\":\"extro_intro\",\"start\":\"extrospectivo\",\"end\":\"introspectivo\",\"color\":\"#00B8D4\"}</item>
+        <item>{\"id\":\"custom_01\",\"start\":\"Início (-)\",\"end\":\"Fim (+)\",\"color\":\"#009688\"}</item>
+        <item>{\"id\":\"custom_02\",\"start\":\"Início (-)\",\"end\":\"Fim (+)\",\"color\":\"#009688\"}</item>
+        <item>{\"id\":\"custom_03\",\"start\":\"Início (-)\",\"end\":\"Fim (+)\",\"color\":\"#009688\"}</item>
+        <item>{\"id\":\"custom_04\",\"start\":\"Início (-)\",\"end\":\"Fim (+)\",\"color\":\"#009688\"}</item>
+        <item>{\"id\":\"custom_05\",\"start\":\"Início (-)\",\"end\":\"Fim (+)\",\"color\":\"#009688\"}</item>
+        <item>{\"id\":\"custom_06\",\"start\":\"Início (-)\",\"end\":\"Fim (+)\",\"color\":\"#009688\"}</item>
+        <item>{\"id\":\"custom_07\",\"start\":\"Início (-)\",\"end\":\"Fim (+)\",\"color\":\"#009688\"}</item>
+        <item>{\"id\":\"custom_08\",\"start\":\"Início (-)\",\"end\":\"Fim (+)\",\"color\":\"#009688\"}</item>
+        <item>{\"id\":\"custom_09\",\"start\":\"Início (-)\",\"end\":\"Fim (+)\",\"color\":\"#009688\"}</item>
+        <item>{\"id\":\"custom_10\",\"start\":\"Início (-)\",\"end\":\"Fim (+)\",\"color\":\"#009688\"}</item>
+        <item>{\"id\":\"custom_11\",\"start\":\"Início (-)\",\"end\":\"Fim (+)\",\"color\":\"#009688\"}</item>
+        <item>{\"id\":\"custom_12\",\"start\":\"Início (-)\",\"end\":\"Fim (+)\",\"color\":\"#009688\"}</item>
+        <item>{\"id\":\"custom_13\",\"start\":\"Início (-)\",\"end\":\"Fim (+)\",\"color\":\"#009688\"}</item>
+        <item>{\"id\":\"custom_14\",\"start\":\"Início (-)\",\"end\":\"Fim (+)\",\"color\":\"#009688\"}</item>
+        <item>{\"id\":\"custom_15\",\"start\":\"Início (-)\",\"end\":\"Fim (+)\",\"color\":\"#009688\"}</item>
+        <item>{\"id\":\"custom_16\",\"start\":\"Início (-)\",\"end\":\"Fim (+)\",\"color\":\"#009688\"}</item>
+        <item>{\"id\":\"custom_17\",\"start\":\"Início (-)\",\"end\":\"Fim (+)\",\"color\":\"#009688\"}</item>
+        <item>{\"id\":\"custom_18\",\"start\":\"Início (-)\",\"end\":\"Fim (+)\",\"color\":\"#009688\"}</item>
+        <item>{\"id\":\"custom_19\",\"start\":\"Início (-)\",\"end\":\"Fim (+)\",\"color\":\"#009688\"}</item>
+        <item>{\"id\":\"custom_20\",\"start\":\"Início (-)\",\"end\":\"Fim (+)\",\"color\":\"#009688\"}</item>
+    </string-array>
+
+
+
+    <string-array name="scales">
+        <item>{\"id\":\"sad_happy\",\"start\":\"triste\",\"end\":\"feliz\",\"color\":\"#64DD17\"}</item>
+        <item>{\"id\":\"discontent_content\",\"start\":\"descontente\",\"end\":\"contente\",\"color\":\"#CDDC39\"}</item>
+        <item>{\"id\":\"stressed_relaxed\",\"start\":\"estressado\",\"end\":\"relaxado\",\"color\":\"#00BCD4\"}</item>
+        <item>{\"id\":\"tired_rested\",\"start\":\"cansado\",\"end\":\"descansado\",\"color\":\"#00BFA5\"}</item>
+        <item>{\"id\":\"bored_interested\",\"start\":\"entediado\",\"end\":\"interessado\",\"color\":\"#DD2C00\"}</item>
+        <item>{\"id\":\"pessimistic_optimistic\",\"start\":\"pessimista\",\"end\":\"otimista\",\"color\":\"#8BC34A\"}</item>
+        <item>{\"id\":\"hopeless_hopeful\",\"start\":\"sem&#160;esperança\",\"end\":\"esperançoso\",\"color\":\"#00C853\"}</item>
+        <item>{\"id\":\"worthless_valuable\",\"start\":\"sem&#160;valor\",\"end\":\"valioso\",\"color\":\"#4CAF50\"}</item>
+        <item>{\"id\":\"helpless_competent\",\"start\":\"impotente\",\"end\":\"competente\",\"color\":\"#1B5E20\"}</item>
+        <item>{\"id\":\"restless_serene\",\"start\":\"inquieto\",\"end\":\"sereno\",\"color\":\"#009688\"}</item>
+        <item>{\"id\":\"alert_careless\",\"start\":\"alerta\",\"end\":\"despreocupado\",\"color\":\"#006064\"}</item>
+        <item>{\"id\":\"distracted_focused\",\"start\":\"distraído\",\"end\":\"focado\",\"color\":\"#FF9800\"}</item>
+        <item>{\"id\":\"slow_speedy\",\"start\":\"lento\",\"end\":\"rápido\",\"color\":\"#FF6D00\"}</item>
+        <item>{\"id\":\"lethargic_energetic\",\"start\":\"letárgico\",\"end\":\"enérgico\",\"color\":\"#FF5722\"}</item>
+        <item>{\"id\":\"lonely_connected\",\"start\":\"solitário\",\"end\":\"conectado\",\"color\":\"#78909C\"}</item>
+        <item>{\"id\":\"withdrawn_social\",\"start\":\"retirado\",\"end\":\"social\",\"color\":\"#455A64\"}</item>
+        <item>{\"id\":\"selfconscious_confident\",\"start\":\"auto-consciente\",\"end\":\"confiante\",\"color\":\"#263238\"}</item>
+        <item>{\"id\":\"anxious_calm\",\"start\":\"ansioso\",\"end\":\"tranquilo\",\"color\":\"#2196F3\"}</item>
+        <item>{\"id\":\"afraid_unafraid\",\"start\":\"assustado\",\"end\":\"destemido\",\"color\":\"#304FFE\"}</item>
+        <item>{\"id\":\"worried_untroubled\",\"start\":\"preocupado\",\"end\":\"sem&#160;preocupações\",\"color\":\"#3F51B5\"}</item>
+        <item>{\"id\":\"unsafe_safe\",\"start\":\"inseguro\",\"end\":\"seguro\",\"color\":\"#1A237E\"}</item>
+        <item>{\"id\":\"irritable_amiable\",\"start\":\"irritável\",\"end\":\"amável\",\"color\":\"#D500F9\"}</item>
+        <item>{\"id\":\"angry_peaceful\",\"start\":\"zangado\",\"end\":\"pacífico\",\"color\":\"#9C27B0\"}</item>
+        <item>{\"id\":\"confused_clear\",\"start\":\"confuso\",\"end\":\"claro\",\"color\":\"#673AB7\"}</item>
+        <item>{\"id\":\"pain_comfort\",\"start\":\"dor\",\"end\":\"conforto\",\"color\":\"#9E9D24\"}</item>
+        <item>{\"id\":\"numb_responsive\",\"start\":\"entorpecido\",\"end\":\"sensível\",\"color\":\"#795548\"}</item>
+        <item>{\"id\":\"craving_nocraving\",\"start\":\"desejo\",\"end\":\"sem&#160;desejo\",\"color\":\"#3E2723\"}</item>
+        <item>{\"id\":\"hurt_whole\",\"start\":\"ferido\",\"end\":\"inteiro\",\"color\":\"#33691E\"}</item>
+        <item>{\"id\":\"external_internal\",\"start\":\"foco&#160;externo\",\"end\":\"foco&#160;interno\",\"color\":\"#0091EA\"}</item>
+        <item>{\"id\":\"extro_intro\",\"start\":\"extrospectivo\",\"end\":\"introspectivo\",\"color\":\"#00B8D4\"}</item>
+        <item>{\"id\":\"custom_01\",\"start\":\"Início (-)\",\"end\":\"Fim (+)\",\"color\":\"#009688\"}</item>
+        <item>{\"id\":\"custom_02\",\"start\":\"Início (-)\",\"end\":\"Fim (+)\",\"color\":\"#009688\"}</item>
+        <item>{\"id\":\"custom_03\",\"start\":\"Início (-)\",\"end\":\"Fim (+)\",\"color\":\"#009688\"}</item>
+        <item>{\"id\":\"custom_04\",\"start\":\"Início (-)\",\"end\":\"Fim (+)\",\"color\":\"#009688\"}</item>
+        <item>{\"id\":\"custom_05\",\"start\":\"Início (-)\",\"end\":\"Fim (+)\",\"color\":\"#009688\"}</item>
+        <item>{\"id\":\"custom_06\",\"start\":\"Início (-)\",\"end\":\"Fim (+)\",\"color\":\"#009688\"}</item>
+        <item>{\"id\":\"custom_07\",\"start\":\"Início (-)\",\"end\":\"Fim (+)\",\"color\":\"#009688\"}</item>
+        <item>{\"id\":\"custom_08\",\"start\":\"Início (-)\",\"end\":\"Fim (+)\",\"color\":\"#009688\"}</item>
+        <item>{\"id\":\"custom_09\",\"start\":\"Início (-)\",\"end\":\"Fim (+)\",\"color\":\"#009688\"}</item>
+        <item>{\"id\":\"custom_10\",\"start\":\"Início (-)\",\"end\":\"Fim (+)\",\"color\":\"#009688\"}</item>
+        <item>{\"id\":\"custom_11\",\"start\":\"Início (-)\",\"end\":\"Fim (+)\",\"color\":\"#009688\"}</item>
+        <item>{\"id\":\"custom_12\",\"start\":\"Início (-)\",\"end\":\"Fim (+)\",\"color\":\"#009688\"}</item>
+        <item>{\"id\":\"custom_13\",\"start\":\"Início (-)\",\"end\":\"Fim (+)\",\"color\":\"#009688\"}</item>
+        <item>{\"id\":\"custom_14\",\"start\":\"Início (-)\",\"end\":\"Fim (+)\",\"color\":\"#009688\"}</item>
+        <item>{\"id\":\"custom_15\",\"start\":\"Início (-)\",\"end\":\"Fim (+)\",\"color\":\"#009688\"}</item>
+        <item>{\"id\":\"custom_16\",\"start\":\"Início (-)\",\"end\":\"Fim (+)\",\"color\":\"#009688\"}</item>
+        <item>{\"id\":\"custom_17\",\"start\":\"Início (-)\",\"end\":\"Fim (+)\",\"color\":\"#009688\"}</item>
+        <item>{\"id\":\"custom_18\",\"start\":\"Início (-)\",\"end\":\"Fim (+)\",\"color\":\"#009688\"}</item>
+        <item>{\"id\":\"custom_19\",\"start\":\"Início (-)\",\"end\":\"Fim (+)\",\"color\":\"#009688\"}</item>
+        <item>{\"id\":\"custom_20\",\"start\":\"Início (-)\",\"end\":\"Fim (+)\",\"color\":\"#009688\"}</item>
+        <item>{\"id\":\"custom_21\",\"start\":\"Início (-)\",\"end\":\"Fim (+)\",\"color\":\"#009688\"}</item>
+        <item>{\"id\":\"custom_22\",\"start\":\"Início (-)\",\"end\":\"Fim (+)\",\"color\":\"#009688\"}</item>
+        <item>{\"id\":\"custom_23\",\"start\":\"Início (-)\",\"end\":\"Fim (+)\",\"color\":\"#009688\"}</item>
+        <item>{\"id\":\"custom_24\",\"start\":\"Início (-)\",\"end\":\"Fim (+)\",\"color\":\"#009688\"}</item>
+        <item>{\"id\":\"custom_25\",\"start\":\"Início (-)\",\"end\":\"Fim (+)\",\"color\":\"#009688\"}</item>
+        <item>{\"id\":\"custom_26\",\"start\":\"Início (-)\",\"end\":\"Fim (+)\",\"color\":\"#009688\"}</item>
+        <item>{\"id\":\"custom_27\",\"start\":\"Início (-)\",\"end\":\"Fim (+)\",\"color\":\"#009688\"}</item>
+        <item>{\"id\":\"custom_28\",\"start\":\"Início (-)\",\"end\":\"Fim (+)\",\"color\":\"#009688\"}</item>
+        <item>{\"id\":\"custom_29\",\"start\":\"Início (-)\",\"end\":\"Fim (+)\",\"color\":\"#009688\"}</item>
+        <item>{\"id\":\"custom_30\",\"start\":\"Início (-)\",\"end\":\"Fim (+)\",\"color\":\"#009688\"}</item>
+    </string-array>
+
+
+    <string name="scale_alert_careless_end">despreocupado</string>
+</resources>
