@@ -878,5 +878,8 @@
         \n\nStatistics regarding the non-responses are planning (but not implemented yet). After the removal, they will not be available for the time before.</string>
     <string name="remove_non_responses_success">Successfully removed non-responses.</string>
     <string name="remove_non_responses_fail">Removing non-responses has failed.</string>
+    <string name="pref_security_fingerprint_title">Fingerprint</string>
+    <string name="pref_security_fingerprint_summary_enabled">Unlock with fingerprint is enabled.</string>
+    <string name="pref_security_fingerprint_summary_disabled">Unlock with fingerprint is disabled.</string>
 
 </resources>

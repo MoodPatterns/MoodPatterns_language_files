@@ -879,4 +879,7 @@
         \n\nSe están planificando estadísticas sobre las no respuestas (pero aún no se han implementado). Después de la eliminación, no van a estar disponibles para el tiempo antes.</string>
     <string name="remove_non_responses_success">Se eliminaron con éxito las no respuestas.</string>
     <string name="remove_non_responses_fail">Ha fallado la eliminación de las no respuestas.</string>
+    <string name="pref_security_fingerprint_title">Huella dactilar</string>
+    <string name="pref_security_fingerprint_summary_enabled">El desbloqueo con huella digital está habilitado.</string>
+    <string name="pref_security_fingerprint_summary_disabled">El desbloqueo con huella digital está desactivado.</string>
 </resources>

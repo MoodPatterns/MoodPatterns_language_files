@@ -887,5 +887,8 @@
         \n\nAs estatísticas sobre as não respostas estão em planejamento (mas ainda não implementadas). Após a remoção, eles não estarão disponíveis para o tempo antes.</string>
     <string name="remove_non_responses_success">Não respostas removidas com sucesso.</string>
     <string name="remove_non_responses_fail">A remoção das não respostas falhou.</string>
+    <string name="pref_security_fingerprint_title">Impressão digital</string>
+    <string name="pref_security_fingerprint_summary_enabled">O desbloqueio com impressão digital está ativado.</string>
+    <string name="pref_security_fingerprint_summary_disabled">O desbloqueio com impressão digital está desativado.</string>
 
 </resources>

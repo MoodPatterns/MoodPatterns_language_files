@@ -879,5 +879,8 @@
         \n\nStatistiken zu den Nichtantworten sind in Planung (aber noch nicht implementiert). Nach dem Entfernen werden sie für die Zeit davor nicht verfügbar sein.</string>
     <string name="remove_non_responses_success">Nichtantworten erfolgreich entfernt.</string>
     <string name="remove_non_responses_fail">Das Entfernen von Nichtantworten ist fehlgeschlagen.</string>
+    <string name="pref_security_fingerprint_title">Fingerabdruck</string>
+    <string name="pref_security_fingerprint_summary_enabled">Entsperren mit Fingerabdruck ist aktiviert.</string>
+    <string name="pref_security_fingerprint_summary_disabled">Entsperren mit Fingerabdruck ist deaktiviert.</string>
 </resources>
 
